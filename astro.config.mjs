@@ -5,6 +5,7 @@ import starlightVersions from 'starlight-versions';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://guide.shoukaku.shipgirl.moe',
 	integrations: [
 		starlight({
 			plugins: [
