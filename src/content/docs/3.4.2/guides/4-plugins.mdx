@@ -1,0 +1,36 @@
+---
+title: Plugins
+description: Plugins to extend Shoukaku.
+slug: 3.4.2/guides/4-plugins
+---
+
+## Plugins List
+
+Open a pull request to add your plugin here
+
+Name   | Link     | Description
+\-------|----------|------------
+Kazagumo | [Github](https://github.com/Takiyo0/Kazagumo) | A Shoukaku wrapper that have built-in queue system
+stone-deezer | [NPM](https://www.npmjs.com/package/stone-deezer) | A plugin to simplify deezer links and then play it from available sources (**REQUIRES [KAZAGUMO](https://github.com/Takiyo0/Kazagumo)**)
+
+## Creating Plugins
+
+Shoukaku has now official supports for plugins. However, implementing this is up to the developers that is interested on doing it
+
+Shoukaku support modification on Rest.ts and Player.ts
+
+To apply your plugin, put the extended classes on **ShoukakuOptions.structures**.
+
+```js
+const { Client } = require('discord.js');
+const { Shoukaku, Rest, Connectors } = require('shoukaku');
+class CustomRest extends Rest { }; // extended structure of your choice
+const Nodes = [{
+    name: 'Localhost',
+    url: 'localhost:6969',
+    auth: 'marin_kitagawa'
+}];
+const ShoukakuOptions = { structures: { rest: CustomRest } } // pass the custom structure to Shoukaku
+const client = new Client();
+const shoukaku = new Shoukaku(new Connectors.DiscordJS(client), Nodes, ShoukakuOptions);
+```

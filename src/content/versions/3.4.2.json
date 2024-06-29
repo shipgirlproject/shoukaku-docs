@@ -1,0 +1,48 @@
+{
+  "sidebar": [
+    {
+      "label": "Guides",
+      "autogenerate": {
+        "directory": "guides"
+      }
+    },
+    {
+      "label": "API Reference",
+      "collapsed": false,
+      "items": [
+        {
+          "collapsed": true,
+          "label": "Namespaces",
+          "autogenerate": {
+            "collapsed": true,
+            "directory": "api/namespaces"
+          }
+        },
+        {
+          "collapsed": true,
+          "label": "Classes",
+          "autogenerate": {
+            "collapsed": true,
+            "directory": "api/classes"
+          }
+        },
+        {
+          "collapsed": true,
+          "label": "Interfaces",
+          "autogenerate": {
+            "collapsed": true,
+            "directory": "api/interfaces"
+          }
+        },
+        {
+          "collapsed": true,
+          "label": "Type Aliases",
+          "autogenerate": {
+            "collapsed": true,
+            "directory": "api/type-aliases"
+          }
+        }
+      ]
+    }
+  ]
+}

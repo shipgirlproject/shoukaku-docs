@@ -1,0 +1,43 @@
+---
+title: Common Usage
+description: Commonly used pieces of code.
+slug: 3.4.2/guides/3-common
+---
+
+## Search and Join a Channel
+
+Get a Lavalink [node](/3.4.2/api/classes/node/) that you are connected to, which was [specified](/3.4.2/api/classes/shoukaku#parameters) when creating the [Shoukaku](/3.4.2/api/classes/shoukaku) instance.
+
+```js
+const node = shoukaku.getNode();
+if (!node) return;
+```
+
+Search for a track, here we are searching via [SoundCloud](https://soundcloud.com), using the `scsearch:` prefix. The string after the prefix is the search query.
+
+```js
+const result = await node.rest.resolve('scsearch:snowhalation');
+if (!result?.tracks.length) return; // no tracks
+const metadata = result.tracks.shift(); // get the first trackl
+```
+
+Tell the Lavalink node to join a Discord voice channel.
+
+```js
+const player = await node.joinChannel({
+    guildId: 'your_guild_id',
+    channelId: 'your_channel_id',
+    shardId: 0 // if unsharded it will always be zero (depending on your library implementation)
+});
+// player is created and ready, do your thing
+```
+
+## Play Track and change Playback Option
+
+Here we are changing the volume, you can do [other stuff](/3.4.2/api/classes/player#methods) as well.
+
+```js
+player
+    .playTrack({ track: metadata.track })
+    .setVolume(0.5);
+```

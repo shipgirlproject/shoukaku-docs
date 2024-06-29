@@ -1,0 +1,8 @@
+{
+  "include": ["./src/*", ".eslintrc.cjs", "./shoukaku/*", "./.astro/*"],
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "verbatimModuleSyntax": false,
+    "skipLibCheck": true
+  }
+}
