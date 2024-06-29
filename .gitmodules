@@ -1,0 +1,4 @@
+[submodule "shoukaku"]
+	path = shoukaku
+	url = https://github.com/shipgirlproject/shoukaku
+	branch = v2
