@@ -35,7 +35,9 @@ export default defineConfig({
 						{ slug: '4.0.1' },
 						{ slug: '3.4.2' },
 					],
-					current: 'master'
+					current: {
+						label: 'master',
+					}
 				}),
 			],
 			title: 'Shoukaku Docs',
