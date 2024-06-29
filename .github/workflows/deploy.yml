@@ -26,6 +26,7 @@ jobs:
         uses: bahmutov/npm-install@v1.4.5
         with:
           working-directory: shoukaku
+          useLockFile: false
       - name: Install, build, and upload your site
         uses: withastro/action@v2
 
