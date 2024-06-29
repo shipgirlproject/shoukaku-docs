@@ -7,20 +7,44 @@ title: "RoutePlanner"
 
 ## Properties
 
+<a id="class" name="class"></a>
+
 ### class
 
-> **class**: `null` \| `"RotatingIpRoutePlanner"` \| `"NanoIpRoutePlanner"` \| `"RotatingNanoIpRoutePlanner"` \| `"BalancingIpRoutePlanner"`
+```ts
+class: 
+  | null
+  | "RotatingIpRoutePlanner"
+  | "NanoIpRoutePlanner"
+  | "RotatingNanoIpRoutePlanner"
+  | "BalancingIpRoutePlanner";
+```
 
 #### Defined in
 
-[src/node/Rest.ts:84](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L84)
+[node/Rest.ts:84](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L84)
 
 ***
 
+<a id="details" name="details"></a>
+
 ### details
 
-> **details**: `null` \| `object`
+```ts
+details: null | {
+  blockIndex: string;
+  currentAddress: string;
+  currentAddressIndex: string;
+  failingAddresses: Address[];
+  ipBlock: {
+     size: string;
+     type: string;
+    };
+  ipIndex: string;
+  rotateIndex: string;
+};
+```
 
 #### Defined in
 
-[src/node/Rest.ts:85](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L85)
+[node/Rest.ts:85](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L85)

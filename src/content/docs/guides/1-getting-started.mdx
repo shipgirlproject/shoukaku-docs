@@ -14,61 +14,60 @@ Shoukaku is a stable, powerful and updated wrapper around [Lavalink](https://lav
 
     <PackageManagers type="add" pkg="shipgirlproject/Shoukaku#master" pkgManagers={["npm", "yarn", "pnpm", "bun"]} />
 
-2. Initialize the library using one of the connectors.
+2. Import the library
+
+    <Tabs>
+        <TabItem label="ESM">
+            ```js
+            import { Client } from "discord.js";
+            import { Shoukaku, Connectors } from "shoukaku";
+            ```
+        </TabItem>
+        <TabItem label="CJS">
+            ```js
+            const { Client } = require("discord.js");
+            const { Shoukaku, Connectors } = require("shoukaku");
+            ```
+        </TabItem>
+    </Tabs>
+
+3. Configure nodes
+
+    ```js
+    const Nodes = [
+        {
+            name: "Localhost",
+            url: "localhost:6969",
+            auth: "re_aoharu", // password
+        },
+    ];
+    ```
+
+4. Initialize the library using one of the connectors.
     
     <Tabs>
         <TabItem label="Discord.JS">
             ```js
-            const { Client } = require('discord.js');
-            const { Shoukaku, Connectors } = require('shoukaku');
-            const Nodes = [{
-                name: 'Localhost',
-                url: 'localhost:6969',
-                auth: 'marin_kitagawa'
-            }];
             const client = new Client();
             const shoukaku = new Shoukaku(new Connectors.DiscordJS(client), Nodes);
-            // ALWAYS handle error, logging it will do
-            shoukaku.on('error', (_, error) => console.error(error));
-            client.login('token');
-            // If you want shoukaku to be available on client, then bind it to it, here is one example of it
-            client.shoukaku = shoukaku;
             ```
         </TabItem>
         <TabItem label="Eris">
             ```js
-            const { Client } = require('discord.js');
-            const { Shoukaku, Connectors } = require('shoukaku');
-            const Nodes = [{
-                name: 'Localhost',
-                url: 'localhost:6969',
-                auth: 'marin_kitagawa'
-            }];
             const client = new Client();
             const shoukaku = new Shoukaku(new Connectors.Eris(client), Nodes);
-            // ALWAYS handle error, logging it will do
-            shoukaku.on('error', (_, error) => console.error(error));
-            client.login('token');
-            // If you want shoukaku to be available on client, then bind it to it, here is one example of it
-            client.shoukaku = shoukaku;
             ```
         </TabItem>
         <TabItem label="Oceanic.JS">
             ```js
-            const { Client } = require('discord.js');
-            const { Shoukaku, Connectors } = require('shoukaku');
-            const Nodes = [{
-                name: 'Localhost',
-                url: 'localhost:6969',
-                auth: 'marin_kitagawa'
-            }];
             const client = new Client();
             const shoukaku = new Shoukaku(new Connectors.OceanicJS(client), Nodes);
-            // ALWAYS handle error, logging it will do
-            shoukaku.on('error', (_, error) => console.error(error));
-            client.login('token');
-            // If you want shoukaku to be available on client, then bind it to it, here is one example of it
-            client.shoukaku = shoukaku;
+            ```
+        </TabItem>
+        <TabItem label="Seyfert">
+            ```js
+            const client = new Client();
+            const shoukaku = new Shoukaku(new Connectors.Seyfert(client), Nodes);
             ```
         </TabItem>
     </Tabs>
@@ -81,6 +80,27 @@ Shoukaku is a stable, powerful and updated wrapper around [Lavalink](https://lav
         });
         ```
     </Aside>
+
+5. Handle error events
+
+    Always handle "error" events or your program may crash due to uncaught error
+    ```js
+    shoukaku.on("error", (_, error) => console.error(error));
+    ```
+
+6. Login to Discord
+
+    ```js
+    client.login("token");
+    ```
+
+    <Aside type="tip">
+    If you want shoukaku to be available on client, then bind it to it
+    ```js
+    client.shoukaku = shoukaku;
+    ```
+    </Aside>         
+
 </Steps>
 
 ## Other Resources

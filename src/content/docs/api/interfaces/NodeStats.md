@@ -7,100 +7,177 @@ title: "NodeStats"
 
 ## Properties
 
+<a id="cpu" name="cpu"></a>
+
 ### cpu
 
-> **cpu**: `object`
+```ts
+cpu: {
+  cores: number;
+  lavalinkLoad: number;
+  systemLoad: number;
+};
+```
+
+<a id="cores" name="cores"></a>
 
 #### cores
 
-> **cores**: `number`
+```ts
+cores: number;
+```
+
+<a id="lavalinkload" name="lavalinkload"></a>
 
 #### lavalinkLoad
 
-> **lavalinkLoad**: `number`
+```ts
+lavalinkLoad: number;
+```
+
+<a id="systemload" name="systemload"></a>
 
 #### systemLoad
 
-> **systemLoad**: `number`
+```ts
+systemLoad: number;
+```
 
 #### Defined in
 
-[src/node/Node.ts:23](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L23)
+[node/Node.ts:23](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L23)
 
 ***
+
+<a id="framestats" name="framestats"></a>
 
 ### frameStats
 
-> **frameStats**: `object`
+```ts
+frameStats: {
+  deficit: number;
+  nulled: number;
+  sent: number;
+};
+```
+
+<a id="deficit" name="deficit"></a>
 
 #### deficit
 
-> **deficit**: `number`
+```ts
+deficit: number;
+```
+
+<a id="nulled" name="nulled"></a>
 
 #### nulled
 
-> **nulled**: `number`
+```ts
+nulled: number;
+```
+
+<a id="sent" name="sent"></a>
 
 #### sent
 
-> **sent**: `number`
+```ts
+sent: number;
+```
 
 #### Defined in
 
-[src/node/Node.ts:18](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L18)
+[node/Node.ts:18](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L18)
 
 ***
+
+<a id="memory" name="memory"></a>
 
 ### memory
 
-> **memory**: `object`
+```ts
+memory: {
+  allocated: number;
+  free: number;
+  reservable: number;
+  used: number;
+};
+```
+
+<a id="allocated" name="allocated"></a>
 
 #### allocated
 
-> **allocated**: `number`
+```ts
+allocated: number;
+```
+
+<a id="free" name="free"></a>
 
 #### free
 
-> **free**: `number`
+```ts
+free: number;
+```
+
+<a id="reservable" name="reservable"></a>
 
 #### reservable
 
-> **reservable**: `number`
+```ts
+reservable: number;
+```
+
+<a id="used" name="used"></a>
 
 #### used
 
-> **used**: `number`
+```ts
+used: number;
+```
 
 #### Defined in
 
-[src/node/Node.ts:12](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L12)
+[node/Node.ts:12](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L12)
 
 ***
+
+<a id="players" name="players"></a>
 
 ### players
 
-> **players**: `number`
+```ts
+players: number;
+```
 
 #### Defined in
 
-[src/node/Node.ts:10](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L10)
+[node/Node.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L10)
 
 ***
+
+<a id="playingplayers" name="playingplayers"></a>
 
 ### playingPlayers
 
-> **playingPlayers**: `number`
+```ts
+playingPlayers: number;
+```
 
 #### Defined in
 
-[src/node/Node.ts:11](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L11)
+[node/Node.ts:11](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L11)
 
 ***
 
+<a id="uptime" name="uptime"></a>
+
 ### uptime
 
-> **uptime**: `number`
+```ts
+uptime: number;
+```
 
 #### Defined in
 
-[src/node/Node.ts:28](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L28)
+[node/Node.ts:28](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L28)

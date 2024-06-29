@@ -17,6 +17,18 @@ export default defineConfig({
 						collapsed: false,
 						label: "API Reference",
 					},
+					typeDoc: {
+						exclude: '**/node_modules/@types/node/**',
+						includeVersion: true,
+						useHTMLAnchors: true,
+						useCodeBlocks: true,
+						expandParameters: true,
+						expandObjects: true,
+						parametersFormat: 'table',
+						enumMembersFormat: 'table',
+						typeDeclarationFormat: 'table',
+						indexFormat: 'table',
+					}
 				}),
 				starlightVersions({
 					versions: [

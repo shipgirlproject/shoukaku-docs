@@ -7,74 +7,142 @@ title: "Track"
 
 ## Properties
 
+<a id="encoded" name="encoded"></a>
+
 ### encoded
 
-> **encoded**: `string`
+```ts
+encoded: string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:17](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L17)
+[node/Rest.ts:17](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L17)
 
 ***
+
+<a id="info" name="info"></a>
 
 ### info
 
-> **info**: `object`
+```ts
+info: {
+  artworkUrl: string;
+  author: string;
+  identifier: string;
+  isSeekable: boolean;
+  isStream: boolean;
+  isrc: string;
+  length: number;
+  position: number;
+  sourceName: string;
+  title: string;
+  uri: string;
+};
+```
+
+<a id="artworkurl" name="artworkurl"></a>
 
 #### artworkUrl?
 
-> `optional` **artworkUrl**: `string`
+```ts
+optional artworkUrl: string;
+```
+
+<a id="author" name="author"></a>
 
 #### author
 
-> **author**: `string`
+```ts
+author: string;
+```
+
+<a id="identifier" name="identifier"></a>
 
 #### identifier
 
-> **identifier**: `string`
+```ts
+identifier: string;
+```
+
+<a id="isseekable" name="isseekable"></a>
 
 #### isSeekable
 
-> **isSeekable**: `boolean`
+```ts
+isSeekable: boolean;
+```
+
+<a id="isstream" name="isstream"></a>
 
 #### isStream
 
-> **isStream**: `boolean`
+```ts
+isStream: boolean;
+```
+
+<a id="isrc" name="isrc"></a>
 
 #### isrc?
 
-> `optional` **isrc**: `string`
+```ts
+optional isrc: string;
+```
+
+<a id="length" name="length"></a>
 
 #### length
 
-> **length**: `number`
+```ts
+length: number;
+```
+
+<a id="position" name="position"></a>
 
 #### position
 
-> **position**: `number`
+```ts
+position: number;
+```
+
+<a id="sourcename" name="sourcename"></a>
 
 #### sourceName
 
-> **sourceName**: `string`
+```ts
+sourceName: string;
+```
+
+<a id="title" name="title"></a>
 
 #### title
 
-> **title**: `string`
+```ts
+title: string;
+```
+
+<a id="uri" name="uri"></a>
 
 #### uri?
 
-> `optional` **uri**: `string`
+```ts
+optional uri: string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:18](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L18)
+[node/Rest.ts:18](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L18)
 
 ***
 
+<a id="plugininfo" name="plugininfo"></a>
+
 ### pluginInfo
 
-> **pluginInfo**: `unknown`
+```ts
+pluginInfo: unknown;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:31](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L31)
+[node/Rest.ts:31](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L31)

@@ -11,50 +11,70 @@ title: "ResumableHeaders"
 
 ## Properties
 
+<a id="authorization" name="authorization"></a>
+
 ### Authorization
 
-> **Authorization**: `string`
+```ts
+Authorization: string;
+```
 
 #### Defined in
 
-[src/node/Node.ts:66](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L66)
+[node/Node.ts:66](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L66)
 
 ***
+
+<a id="client-name" name="client-name"></a>
 
 ### Client-Name
 
-> **Client-Name**: `string`
+```ts
+Client-Name: string;
+```
 
 #### Defined in
 
-[src/node/Node.ts:64](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L64)
+[node/Node.ts:64](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L64)
 
 ***
+
+<a id="session-id" name="session-id"></a>
 
 ### Session-Id
 
-> **Session-Id**: `string`
+```ts
+Session-Id: string;
+```
 
 #### Defined in
 
-[src/node/Node.ts:68](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L68)
+[node/Node.ts:68](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L68)
 
 ***
+
+<a id="user-agent" name="user-agent"></a>
 
 ### User-Agent
 
-> **User-Agent**: `string`
+```ts
+User-Agent: string;
+```
 
 #### Defined in
 
-[src/node/Node.ts:65](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L65)
+[node/Node.ts:65](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L65)
 
 ***
 
+<a id="user-id" name="user-id"></a>
+
 ### User-Id
 
-> **User-Id**: `string`
+```ts
+User-Id: string;
+```
 
 #### Defined in
 
-[src/node/Node.ts:67](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Node.ts#L67)
+[node/Node.ts:67](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L67)

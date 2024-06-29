@@ -7,80 +7,112 @@ title: "DistortionSettings"
 
 ## Properties
 
+<a id="cosoffset" name="cosoffset"></a>
+
 ### cosOffset?
 
-> `optional` **cosOffset**: `number`
+```ts
+optional cosOffset: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:43](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L43)
+[guild/Player.ts:43](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L43)
 
 ***
+
+<a id="cosscale" name="cosscale"></a>
 
 ### cosScale?
 
-> `optional` **cosScale**: `number`
+```ts
+optional cosScale: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:44](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L44)
+[guild/Player.ts:44](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L44)
 
 ***
+
+<a id="offset" name="offset"></a>
 
 ### offset?
 
-> `optional` **offset**: `number`
+```ts
+optional offset: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:47](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L47)
+[guild/Player.ts:47](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L47)
 
 ***
+
+<a id="scale" name="scale"></a>
 
 ### scale?
 
-> `optional` **scale**: `number`
+```ts
+optional scale: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:48](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L48)
+[guild/Player.ts:48](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L48)
 
 ***
+
+<a id="sinoffset" name="sinoffset"></a>
 
 ### sinOffset?
 
-> `optional` **sinOffset**: `number`
+```ts
+optional sinOffset: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:41](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L41)
+[guild/Player.ts:41](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L41)
 
 ***
+
+<a id="sinscale" name="sinscale"></a>
 
 ### sinScale?
 
-> `optional` **sinScale**: `number`
+```ts
+optional sinScale: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:42](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L42)
+[guild/Player.ts:42](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L42)
 
 ***
+
+<a id="tanoffset" name="tanoffset"></a>
 
 ### tanOffset?
 
-> `optional` **tanOffset**: `number`
+```ts
+optional tanOffset: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:45](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L45)
+[guild/Player.ts:45](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L45)
 
 ***
 
+<a id="tanscale" name="tanscale"></a>
+
 ### tanScale?
 
-> `optional` **tanScale**: `number`
+```ts
+optional tanScale: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:46](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L46)
+[guild/Player.ts:46](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L46)

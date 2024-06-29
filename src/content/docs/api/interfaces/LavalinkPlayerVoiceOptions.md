@@ -11,9 +11,13 @@ title: "LavalinkPlayerVoiceOptions"
 
 ## Properties
 
+<a id="endpoint" name="endpoint"></a>
+
 ### endpoint
 
-> **endpoint**: `string`
+```ts
+endpoint: string;
+```
 
 #### Inherited from
 
@@ -21,13 +25,17 @@ title: "LavalinkPlayerVoiceOptions"
 
 #### Defined in
 
-[src/node/Rest.ts:101](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L101)
+[node/Rest.ts:101](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L101)
 
 ***
 
+<a id="sessionid" name="sessionid"></a>
+
 ### sessionId
 
-> **sessionId**: `string`
+```ts
+sessionId: string;
+```
 
 #### Inherited from
 
@@ -35,13 +43,17 @@ title: "LavalinkPlayerVoiceOptions"
 
 #### Defined in
 
-[src/node/Rest.ts:102](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L102)
+[node/Rest.ts:102](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L102)
 
 ***
 
+<a id="token" name="token"></a>
+
 ### token
 
-> **token**: `string`
+```ts
+token: string;
+```
 
 #### Inherited from
 
@@ -49,4 +61,4 @@ title: "LavalinkPlayerVoiceOptions"
 
 #### Defined in
 
-[src/node/Rest.ts:100](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L100)
+[node/Rest.ts:100](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L100)

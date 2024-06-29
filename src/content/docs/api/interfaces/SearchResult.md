@@ -7,20 +7,28 @@ title: "SearchResult"
 
 ## Properties
 
+<a id="data" name="data"></a>
+
 ### data
 
-> **data**: [`Track`](/api/interfaces/track/)[]
+```ts
+data: Track[];
+```
 
 #### Defined in
 
-[src/node/Rest.ts:62](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L62)
+[node/Rest.ts:62](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L62)
 
 ***
 
+<a id="loadtype" name="loadtype"></a>
+
 ### loadType
 
-> **loadType**: [`SEARCH`](/api/enumerations/loadtype/#search)
+```ts
+loadType: SEARCH;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:61](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L61)
+[node/Rest.ts:61](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L61)

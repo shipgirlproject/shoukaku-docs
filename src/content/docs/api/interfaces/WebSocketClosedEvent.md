@@ -11,29 +11,41 @@ title: "WebSocketClosedEvent"
 
 ## Properties
 
+<a id="byremote" name="byremote"></a>
+
 ### byRemote
 
-> **byRemote**: `boolean`
+```ts
+byRemote: boolean;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:98](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L98)
+[guild/Player.ts:98](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L98)
 
 ***
+
+<a id="code" name="code"></a>
 
 ### code
 
-> **code**: `number`
+```ts
+code: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:97](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L97)
+[guild/Player.ts:97](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L97)
 
 ***
 
+<a id="guildid" name="guildid"></a>
+
 ### guildId
 
-> **guildId**: `string`
+```ts
+guildId: string;
+```
 
 #### Inherited from
 
@@ -41,13 +53,17 @@ title: "WebSocketClosedEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:65](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L65)
+[guild/Player.ts:65](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L65)
 
 ***
 
+<a id="op" name="op"></a>
+
 ### op
 
-> **op**: [`EVENT`](/api/namespaces/constants/enumerations/opcodes/#event)
+```ts
+op: EVENT;
+```
 
 #### Inherited from
 
@@ -55,23 +71,31 @@ title: "WebSocketClosedEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:63](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L63)
+[guild/Player.ts:63](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L63)
 
 ***
+
+<a id="reason" name="reason"></a>
 
 ### reason
 
-> **reason**: `string`
+```ts
+reason: string;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:99](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L99)
+[guild/Player.ts:99](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L99)
 
 ***
 
+<a id="type" name="type"></a>
+
 ### type
 
-> **type**: `"WebSocketClosedEvent"`
+```ts
+type: "WebSocketClosedEvent";
+```
 
 #### Overrides
 
@@ -79,4 +103,4 @@ title: "WebSocketClosedEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:96](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L96)
+[guild/Player.ts:96](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L96)

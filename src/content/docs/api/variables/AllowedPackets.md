@@ -5,8 +5,10 @@ prev: false
 title: "AllowedPackets"
 ---
 
-> `const` **AllowedPackets**: `string`[]
+```ts
+const AllowedPackets: string[];
+```
 
 ## Defined in
 
-[src/connectors/Connector.ts:10](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L10)
+[connectors/Connector.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L10)

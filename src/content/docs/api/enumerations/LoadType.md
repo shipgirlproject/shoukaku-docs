@@ -7,50 +7,10 @@ title: "LoadType"
 
 ## Enumeration Members
 
-### EMPTY
-
-> **EMPTY**: `"empty"`
-
-#### Defined in
-
-[src/node/Rest.ts:12](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L12)
-
-***
-
-### ERROR
-
-> **ERROR**: `"error"`
-
-#### Defined in
-
-[src/node/Rest.ts:13](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L13)
-
-***
-
-### PLAYLIST
-
-> **PLAYLIST**: `"playlist"`
-
-#### Defined in
-
-[src/node/Rest.ts:10](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L10)
-
-***
-
-### SEARCH
-
-> **SEARCH**: `"search"`
-
-#### Defined in
-
-[src/node/Rest.ts:11](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L11)
-
-***
-
-### TRACK
-
-> **TRACK**: `"track"`
-
-#### Defined in
-
-[src/node/Rest.ts:9](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L9)
+| Enumeration Member | Value | Defined in |
+| ------ | ------ | ------ |
+| <a id="empty" name="empty"></a> `EMPTY` | `"empty"` | [node/Rest.ts:12](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L12) |
+| <a id="error" name="error"></a> `ERROR` | `"error"` | [node/Rest.ts:13](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L13) |
+| <a id="playlist" name="playlist"></a> `PLAYLIST` | `"playlist"` | [node/Rest.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L10) |
+| <a id="search" name="search"></a> `SEARCH` | `"search"` | [node/Rest.ts:11](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L11) |
+| <a id="track" name="track"></a> `TRACK` | `"track"` | [node/Rest.ts:9](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L9) |

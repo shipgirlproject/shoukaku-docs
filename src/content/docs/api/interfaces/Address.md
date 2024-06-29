@@ -7,30 +7,42 @@ title: "Address"
 
 ## Properties
 
+<a id="address" name="address"></a>
+
 ### address
 
-> **address**: `string`
+```ts
+address: string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:78](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L78)
+[node/Rest.ts:78](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L78)
 
 ***
+
+<a id="failingtime" name="failingtime"></a>
 
 ### failingTime
 
-> **failingTime**: `string`
+```ts
+failingTime: string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:80](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L80)
+[node/Rest.ts:80](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L80)
 
 ***
 
+<a id="failingtimestamp" name="failingtimestamp"></a>
+
 ### failingTimestamp
 
-> **failingTimestamp**: `number`
+```ts
+failingTimestamp: number;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:79](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L79)
+[node/Rest.ts:79](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L79)

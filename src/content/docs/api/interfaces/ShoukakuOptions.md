@@ -7,29 +7,38 @@ title: "ShoukakuOptions"
 
 ## Properties
 
+<a id="moveondisconnect" name="moveondisconnect"></a>
+
 ### moveOnDisconnect?
 
-> `optional` **moveOnDisconnect**: `boolean`
+```ts
+optional moveOnDisconnect: boolean;
+```
 
 Whether to move players to a different Lavalink node when a node disconnects
 
 #### Defined in
 
-[src/Shoukaku.ts:72](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L72)
+[Shoukaku.ts:72](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L72)
 
 ***
 
+<a id="noderesolver" name="noderesolver"></a>
+
 ### nodeResolver()?
 
-> `optional` **nodeResolver**: (`nodes`, `connection`?) => `undefined` \| [`Node`](/api/classes/node/)
+```ts
+optional nodeResolver: (nodes: Map<string, Node>, connection?: Connection) => undefined | Node;
+```
 
 Node Resolver to use if you want to customize it
 
 #### Parameters
 
-• **nodes**: `Map`\<`string`, [`Node`](/api/classes/node/)\>
-
-• **connection?**: [`Connection`](/api/classes/connection/)
+| Parameter | Type |
+| ------ | ------ |
+| `nodes` | `Map`\<`string`, [`Node`](/api/classes/node/)\> |
+| `connection`? | [`Connection`](/api/classes/connection/) |
 
 #### Returns
 
@@ -37,112 +46,148 @@ Node Resolver to use if you want to customize it
 
 #### Defined in
 
-[src/Shoukaku.ts:88](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L88)
+[Shoukaku.ts:88](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L88)
 
 ***
 
+<a id="reconnectinterval" name="reconnectinterval"></a>
+
 ### reconnectInterval?
 
-> `optional` **reconnectInterval**: `number`
+```ts
+optional reconnectInterval: number;
+```
 
 Timeout before trying to reconnect
 
 #### Defined in
 
-[src/Shoukaku.ts:64](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L64)
+[Shoukaku.ts:64](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L64)
 
 ***
 
+<a id="reconnecttries" name="reconnecttries"></a>
+
 ### reconnectTries?
 
-> `optional` **reconnectTries**: `number`
+```ts
+optional reconnectTries: number;
+```
 
 Number of times to try and reconnect to Lavalink before giving up
 
 #### Defined in
 
-[src/Shoukaku.ts:60](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L60)
+[Shoukaku.ts:60](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L60)
 
 ***
 
+<a id="resttimeout" name="resttimeout"></a>
+
 ### restTimeout?
 
-> `optional` **restTimeout**: `number`
+```ts
+optional restTimeout: number;
+```
 
 Time to wait for a response from the Lavalink REST API before giving up
 
 #### Defined in
 
-[src/Shoukaku.ts:68](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L68)
+[Shoukaku.ts:68](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L68)
 
 ***
 
+<a id="resume" name="resume"></a>
+
 ### resume?
 
-> `optional` **resume**: `boolean`
+```ts
+optional resume: boolean;
+```
 
 Whether to resume a connection on disconnect to Lavalink (Server Side) (Note: DOES NOT RESUME WHEN THE LAVALINK SERVER DIES)
 
 #### Defined in
 
-[src/Shoukaku.ts:48](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L48)
+[Shoukaku.ts:48](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L48)
 
 ***
 
+<a id="resumebylibrary" name="resumebylibrary"></a>
+
 ### resumeByLibrary?
 
-> `optional` **resumeByLibrary**: `boolean`
+```ts
+optional resumeByLibrary: boolean;
+```
 
 Whether to resume the players by doing it in the library side (Client Side) (Note: TRIES TO RESUME REGARDLESS OF WHAT HAPPENED ON A LAVALINK SERVER)
 
 #### Defined in
 
-[src/Shoukaku.ts:56](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L56)
+[Shoukaku.ts:56](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L56)
 
 ***
 
+<a id="resumetimeout" name="resumetimeout"></a>
+
 ### resumeTimeout?
 
-> `optional` **resumeTimeout**: `number`
+```ts
+optional resumeTimeout: number;
+```
 
 Time to wait before lavalink starts to destroy the players of the disconnected client
 
 #### Defined in
 
-[src/Shoukaku.ts:52](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L52)
+[Shoukaku.ts:52](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L52)
 
 ***
 
+<a id="structures" name="structures"></a>
+
 ### structures?
 
-> `optional` **structures**: [`Structures`](/api/interfaces/structures/)
+```ts
+optional structures: Structures;
+```
 
 Custom structures for shoukaku to use
 
 #### Defined in
 
-[src/Shoukaku.ts:80](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L80)
+[Shoukaku.ts:80](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L80)
 
 ***
 
+<a id="useragent" name="useragent"></a>
+
 ### userAgent?
 
-> `optional` **userAgent**: `string`
+```ts
+optional userAgent: string;
+```
 
 User Agent to use when making requests to Lavalink
 
 #### Defined in
 
-[src/Shoukaku.ts:76](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L76)
+[Shoukaku.ts:76](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L76)
 
 ***
 
+<a id="voiceconnectiontimeout" name="voiceconnectiontimeout"></a>
+
 ### voiceConnectionTimeout?
 
-> `optional` **voiceConnectionTimeout**: `number`
+```ts
+optional voiceConnectionTimeout: number;
+```
 
 Timeout before abort connection
 
 #### Defined in
 
-[src/Shoukaku.ts:84](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L84)
+[Shoukaku.ts:84](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L84)

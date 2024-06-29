@@ -7,100 +7,140 @@ title: "FilterOptions"
 
 ## Properties
 
+<a id="channelmix" name="channelmix"></a>
+
 ### channelMix?
 
-> `optional` **channelMix**: `null` \| [`ChannelMixSettings`](/api/interfaces/channelmixsettings/)
+```ts
+optional channelMix: null | ChannelMixSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:121](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L121)
+[guild/Player.ts:121](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L121)
 
 ***
+
+<a id="distortion" name="distortion"></a>
 
 ### distortion?
 
-> `optional` **distortion**: `null` \| [`DistortionSettings`](/api/interfaces/distortionsettings/)
+```ts
+optional distortion: null | DistortionSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:120](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L120)
+[guild/Player.ts:120](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L120)
 
 ***
+
+<a id="equalizer" name="equalizer"></a>
 
 ### equalizer?
 
-> `optional` **equalizer**: [`Band`](/api/interfaces/band/)[]
+```ts
+optional equalizer: Band[];
+```
 
 #### Defined in
 
-[src/guild/Player.ts:114](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L114)
+[guild/Player.ts:114](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L114)
 
 ***
+
+<a id="karaoke" name="karaoke"></a>
 
 ### karaoke?
 
-> `optional` **karaoke**: `null` \| [`KaraokeSettings`](/api/interfaces/karaokesettings/)
+```ts
+optional karaoke: null | KaraokeSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:115](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L115)
+[guild/Player.ts:115](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L115)
 
 ***
+
+<a id="lowpass" name="lowpass"></a>
 
 ### lowPass?
 
-> `optional` **lowPass**: `null` \| [`LowPassSettings`](/api/interfaces/lowpasssettings/)
+```ts
+optional lowPass: null | LowPassSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:122](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L122)
+[guild/Player.ts:122](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L122)
 
 ***
+
+<a id="rotation" name="rotation"></a>
 
 ### rotation?
 
-> `optional` **rotation**: `null` \| [`RotationSettings`](/api/interfaces/rotationsettings/)
+```ts
+optional rotation: null | RotationSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:119](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L119)
+[guild/Player.ts:119](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L119)
 
 ***
+
+<a id="timescale" name="timescale"></a>
 
 ### timescale?
 
-> `optional` **timescale**: `null` \| [`TimescaleSettings`](/api/interfaces/timescalesettings/)
+```ts
+optional timescale: null | TimescaleSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:116](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L116)
+[guild/Player.ts:116](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L116)
 
 ***
+
+<a id="tremolo" name="tremolo"></a>
 
 ### tremolo?
 
-> `optional` **tremolo**: `null` \| [`FreqSettings`](/api/interfaces/freqsettings/)
+```ts
+optional tremolo: null | FreqSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:117](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L117)
+[guild/Player.ts:117](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L117)
 
 ***
+
+<a id="vibrato" name="vibrato"></a>
 
 ### vibrato?
 
-> `optional` **vibrato**: `null` \| [`FreqSettings`](/api/interfaces/freqsettings/)
+```ts
+optional vibrato: null | FreqSettings;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:118](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L118)
+[guild/Player.ts:118](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L118)
 
 ***
 
+<a id="volume" name="volume"></a>
+
 ### volume?
 
-> `optional` **volume**: `number`
+```ts
+optional volume: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:113](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L113)
+[guild/Player.ts:113](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L113)

@@ -11,13 +11,19 @@ title: "Seyfert"
 
 ## Constructors
 
+<a id="constructors" name="constructors"></a>
+
 ### new Seyfert()
 
-> **new Seyfert**(`client`): [`Seyfert`](/api/namespaces/connectors/classes/seyfert/)
+```ts
+new Seyfert(client: any): Seyfert
+```
 
 #### Parameters
 
-• **client**: `any`
+| Parameter | Type |
+| ------ | ------ |
+| `client` | `any` |
 
 #### Returns
 
@@ -29,13 +35,17 @@ title: "Seyfert"
 
 #### Defined in
 
-[src/connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L15)
+[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L15)
 
 ## Methods
 
+<a id="getid" name="getid"></a>
+
 ### getId()
 
-> **getId**(): `string`
+```ts
+getId(): string
+```
 
 #### Returns
 
@@ -47,17 +57,23 @@ title: "Seyfert"
 
 #### Defined in
 
-[src/connectors/libs/Seyfert.ts:10](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/libs/Seyfert.ts#L10)
+[connectors/libs/Seyfert.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/libs/Seyfert.ts#L10)
 
 ***
 
+<a id="listen" name="listen"></a>
+
 ### listen()
 
-> **listen**(`nodes`): `void`
+```ts
+listen(nodes: NodeOption[]): void
+```
 
 #### Parameters
 
-• **nodes**: [`NodeOption`](/api/interfaces/nodeoption/)[]
+| Parameter | Type |
+| ------ | ------ |
+| `nodes` | [`NodeOption`](/api/interfaces/nodeoption/)[] |
 
 #### Returns
 
@@ -69,21 +85,28 @@ title: "Seyfert"
 
 #### Defined in
 
-[src/connectors/libs/Seyfert.ts:14](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/libs/Seyfert.ts#L14)
+[connectors/libs/Seyfert.ts:14](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/libs/Seyfert.ts#L14)
 
 ***
 
+<a id="sendpacket" name="sendpacket"></a>
+
 ### sendPacket()
 
-> **sendPacket**(`shardId`, `payload`, `important`): `void`
+```ts
+sendPacket(
+   shardId: number, 
+   payload: any, 
+   important: boolean): void
+```
 
 #### Parameters
 
-• **shardId**: `number`
-
-• **payload**: `any`
-
-• **important**: `boolean`
+| Parameter | Type |
+| ------ | ------ |
+| `shardId` | `number` |
+| `payload` | `any` |
+| `important` | `boolean` |
 
 #### Returns
 
@@ -95,17 +118,23 @@ title: "Seyfert"
 
 #### Defined in
 
-[src/connectors/libs/Seyfert.ts:6](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/libs/Seyfert.ts#L6)
+[connectors/libs/Seyfert.ts:6](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/libs/Seyfert.ts#L6)
 
 ***
 
+<a id="set" name="set"></a>
+
 ### set()
 
-> **set**(`manager`): [`Connector`](/api/classes/connector/)
+```ts
+set(manager: Shoukaku): Connector
+```
 
 #### Parameters
 
-• **manager**: [`Shoukaku`](/api/classes/shoukaku/)
+| Parameter | Type |
+| ------ | ------ |
+| `manager` | [`Shoukaku`](/api/classes/shoukaku/) |
 
 #### Returns
 
@@ -117,4 +146,4 @@ title: "Seyfert"
 
 #### Defined in
 
-[src/connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L20)
+[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L20)

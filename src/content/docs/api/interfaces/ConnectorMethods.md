@@ -7,20 +7,28 @@ title: "ConnectorMethods"
 
 ## Properties
 
+<a id="getid" name="getid"></a>
+
 ### getId
 
-> **getId**: `any`
+```ts
+getId: any;
+```
 
 #### Defined in
 
-[src/connectors/Connector.ts:7](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L7)
+[connectors/Connector.ts:7](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L7)
 
 ***
 
+<a id="sendpacket" name="sendpacket"></a>
+
 ### sendPacket
 
-> **sendPacket**: `any`
+```ts
+sendPacket: any;
+```
 
 #### Defined in
 
-[src/connectors/Connector.ts:6](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L6)
+[connectors/Connector.ts:6](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L6)

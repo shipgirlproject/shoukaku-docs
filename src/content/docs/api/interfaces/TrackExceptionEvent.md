@@ -11,19 +11,27 @@ title: "TrackExceptionEvent"
 
 ## Properties
 
+<a id="exception" name="exception"></a>
+
 ### exception
 
-> **exception**: [`Exception`](/api/interfaces/exception/)
+```ts
+exception: Exception;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:87](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L87)
+[guild/Player.ts:87](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L87)
 
 ***
 
+<a id="guildid" name="guildid"></a>
+
 ### guildId
 
-> **guildId**: `string`
+```ts
+guildId: string;
+```
 
 #### Inherited from
 
@@ -31,13 +39,17 @@ title: "TrackExceptionEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:65](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L65)
+[guild/Player.ts:65](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L65)
 
 ***
 
+<a id="op" name="op"></a>
+
 ### op
 
-> **op**: [`EVENT`](/api/namespaces/constants/enumerations/opcodes/#event)
+```ts
+op: EVENT;
+```
 
 #### Inherited from
 
@@ -45,13 +57,17 @@ title: "TrackExceptionEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:63](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L63)
+[guild/Player.ts:63](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L63)
 
 ***
 
+<a id="type" name="type"></a>
+
 ### type
 
-> **type**: `"TrackExceptionEvent"`
+```ts
+type: "TrackExceptionEvent";
+```
 
 #### Overrides
 
@@ -59,4 +75,4 @@ title: "TrackExceptionEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:86](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L86)
+[guild/Player.ts:86](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L86)

@@ -7,50 +7,70 @@ title: "VoiceChannelOptions"
 
 ## Properties
 
+<a id="channelid" name="channelid"></a>
+
 ### channelId
 
-> **channelId**: `string`
+```ts
+channelId: string;
+```
 
 #### Defined in
 
-[src/Shoukaku.ts:94](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L94)
+[Shoukaku.ts:94](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L94)
 
 ***
+
+<a id="deaf" name="deaf"></a>
 
 ### deaf?
 
-> `optional` **deaf**: `boolean`
+```ts
+optional deaf: boolean;
+```
 
 #### Defined in
 
-[src/Shoukaku.ts:95](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L95)
+[Shoukaku.ts:95](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L95)
 
 ***
+
+<a id="guildid" name="guildid"></a>
 
 ### guildId
 
-> **guildId**: `string`
+```ts
+guildId: string;
+```
 
 #### Defined in
 
-[src/Shoukaku.ts:92](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L92)
+[Shoukaku.ts:92](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L92)
 
 ***
+
+<a id="mute" name="mute"></a>
 
 ### mute?
 
-> `optional` **mute**: `boolean`
+```ts
+optional mute: boolean;
+```
 
 #### Defined in
 
-[src/Shoukaku.ts:96](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L96)
+[Shoukaku.ts:96](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L96)
 
 ***
 
+<a id="shardid" name="shardid"></a>
+
 ### shardId
 
-> **shardId**: `number`
+```ts
+shardId: number;
+```
 
 #### Defined in
 
-[src/Shoukaku.ts:93](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L93)
+[Shoukaku.ts:93](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L93)

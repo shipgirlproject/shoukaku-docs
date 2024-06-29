@@ -14,13 +14,19 @@ title: "Connector"
 
 ## Constructors
 
+<a id="constructors" name="constructors"></a>
+
 ### new Connector()
 
-> **new Connector**(`client`): [`Connector`](/api/classes/connector/)
+```ts
+new Connector(client: any): Connector
+```
 
 #### Parameters
 
-• **client**: `any`
+| Parameter | Type |
+| ------ | ------ |
+| `client` | `any` |
 
 #### Returns
 
@@ -28,13 +34,17 @@ title: "Connector"
 
 #### Defined in
 
-[src/connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L15)
+[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L15)
 
 ## Methods
 
+<a id="getid" name="getid"></a>
+
 ### getId()
 
-> `abstract` **getId**(): `string`
+```ts
+abstract getId(): string
+```
 
 #### Returns
 
@@ -42,17 +52,23 @@ title: "Connector"
 
 #### Defined in
 
-[src/connectors/Connector.ts:41](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L41)
+[connectors/Connector.ts:41](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L41)
 
 ***
+
+<a id="listen" name="listen"></a>
 
 ### listen()
 
-> `abstract` **listen**(`nodes`): `void`
+```ts
+abstract listen(nodes: NodeOption[]): void
+```
 
 #### Parameters
 
-• **nodes**: [`NodeOption`](/api/interfaces/nodeoption/)[]
+| Parameter | Type |
+| ------ | ------ |
+| `nodes` | [`NodeOption`](/api/interfaces/nodeoption/)[] |
 
 #### Returns
 
@@ -60,21 +76,28 @@ title: "Connector"
 
 #### Defined in
 
-[src/connectors/Connector.ts:45](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L45)
+[connectors/Connector.ts:45](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L45)
 
 ***
+
+<a id="sendpacket" name="sendpacket"></a>
 
 ### sendPacket()
 
-> `abstract` **sendPacket**(`shardId`, `payload`, `important`): `void`
+```ts
+abstract sendPacket(
+   shardId: number, 
+   payload: any, 
+   important: boolean): void
+```
 
 #### Parameters
 
-• **shardId**: `number`
-
-• **payload**: `any`
-
-• **important**: `boolean`
+| Parameter | Type |
+| ------ | ------ |
+| `shardId` | `number` |
+| `payload` | `any` |
+| `important` | `boolean` |
 
 #### Returns
 
@@ -82,17 +105,23 @@ title: "Connector"
 
 #### Defined in
 
-[src/connectors/Connector.ts:43](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L43)
+[connectors/Connector.ts:43](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L43)
 
 ***
 
+<a id="set" name="set"></a>
+
 ### set()
 
-> **set**(`manager`): [`Connector`](/api/classes/connector/)
+```ts
+set(manager: Shoukaku): Connector
+```
 
 #### Parameters
 
-• **manager**: [`Shoukaku`](/api/classes/shoukaku/)
+| Parameter | Type |
+| ------ | ------ |
+| `manager` | [`Shoukaku`](/api/classes/shoukaku/) |
 
 #### Returns
 
@@ -100,4 +129,4 @@ title: "Connector"
 
 #### Defined in
 
-[src/connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/connectors/Connector.ts#L20)
+[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L20)

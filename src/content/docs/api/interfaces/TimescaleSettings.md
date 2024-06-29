@@ -7,30 +7,42 @@ title: "TimescaleSettings"
 
 ## Properties
 
+<a id="pitch" name="pitch"></a>
+
 ### pitch?
 
-> `optional` **pitch**: `number`
+```ts
+optional pitch: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:27](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L27)
+[guild/Player.ts:27](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L27)
 
 ***
+
+<a id="rate" name="rate"></a>
 
 ### rate?
 
-> `optional` **rate**: `number`
+```ts
+optional rate: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:28](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L28)
+[guild/Player.ts:28](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L28)
 
 ***
 
+<a id="speed" name="speed"></a>
+
 ### speed?
 
-> `optional` **speed**: `number`
+```ts
+optional speed: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:26](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L26)
+[guild/Player.ts:26](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L26)

@@ -7,60 +7,11 @@ title: "State"
 
 ## Enumeration Members
 
-### CONNECTED
-
-> **CONNECTED**: `2`
-
-#### Defined in
-
-[src/Constants.ts:7](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L7)
-
-***
-
-### CONNECTING
-
-> **CONNECTING**: `0`
-
-#### Defined in
-
-[src/Constants.ts:5](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L5)
-
-***
-
-### DISCONNECTED
-
-> **DISCONNECTED**: `5`
-
-#### Defined in
-
-[src/Constants.ts:10](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L10)
-
-***
-
-### DISCONNECTING
-
-> **DISCONNECTING**: `4`
-
-#### Defined in
-
-[src/Constants.ts:9](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L9)
-
-***
-
-### NEARLY
-
-> **NEARLY**: `1`
-
-#### Defined in
-
-[src/Constants.ts:6](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L6)
-
-***
-
-### RECONNECTING
-
-> **RECONNECTING**: `3`
-
-#### Defined in
-
-[src/Constants.ts:8](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L8)
+| Enumeration Member | Value | Defined in |
+| ------ | ------ | ------ |
+| <a id="connected" name="connected"></a> `CONNECTED` | `2` | [Constants.ts:7](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L7) |
+| <a id="connecting" name="connecting"></a> `CONNECTING` | `0` | [Constants.ts:5](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L5) |
+| <a id="disconnected" name="disconnected"></a> `DISCONNECTED` | `5` | [Constants.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L10) |
+| <a id="disconnecting" name="disconnecting"></a> `DISCONNECTING` | `4` | [Constants.ts:9](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L9) |
+| <a id="nearly" name="nearly"></a> `NEARLY` | `1` | [Constants.ts:6](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L6) |
+| <a id="reconnecting" name="reconnecting"></a> `RECONNECTING` | `3` | [Constants.ts:8](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L8) |

@@ -7,40 +7,56 @@ title: "KaraokeSettings"
 
 ## Properties
 
+<a id="filterband" name="filterband"></a>
+
 ### filterBand?
 
-> `optional` **filterBand**: `number`
+```ts
+optional filterBand: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:21](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L21)
+[guild/Player.ts:21](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L21)
 
 ***
+
+<a id="filterwidth" name="filterwidth"></a>
 
 ### filterWidth?
 
-> `optional` **filterWidth**: `number`
+```ts
+optional filterWidth: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:22](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L22)
+[guild/Player.ts:22](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L22)
 
 ***
+
+<a id="level" name="level"></a>
 
 ### level?
 
-> `optional` **level**: `number`
+```ts
+optional level: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:19](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L19)
+[guild/Player.ts:19](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L19)
 
 ***
 
+<a id="monolevel" name="monolevel"></a>
+
 ### monoLevel?
 
-> `optional` **monoLevel**: `number`
+```ts
+optional monoLevel: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:20](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L20)
+[guild/Player.ts:20](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L20)

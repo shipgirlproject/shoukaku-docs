@@ -9,19 +9,20 @@ Wrapper around Lavalink REST API
 
 ## Constructors
 
+<a id="constructors" name="constructors"></a>
+
 ### new Rest()
 
-> **new Rest**(`node`, `options`): [`Rest`](/api/classes/rest/)
+```ts
+new Rest(node: Node, options: NodeOption): Rest
+```
 
 #### Parameters
 
-• **node**: [`Node`](/api/classes/node/)
-
-An instance of Node
-
-• **options**: [`NodeOption`](/api/interfaces/nodeoption/)
-
-The options to initialize this rest class
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `node` | [`Node`](/api/classes/node/) | An instance of Node |
+| `options` | [`NodeOption`](/api/interfaces/nodeoption/) | The options to initialize this rest class |
 
 #### Returns
 
@@ -29,21 +30,25 @@ The options to initialize this rest class
 
 #### Defined in
 
-[src/node/Rest.ts:192](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L192)
+[node/Rest.ts:192](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L192)
 
 ## Methods
 
+<a id="decode" name="decode"></a>
+
 ### decode()
 
-> **decode**(`track`): `Promise`\<`undefined` \| [`Track`](/api/interfaces/track/)\>
+```ts
+decode(track: string): Promise<undefined | Track>
+```
 
 Decode a track
 
 #### Parameters
 
-• **track**: `string`
-
-Encoded track
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `track` | `string` | Encoded track |
 
 #### Returns
 
@@ -53,21 +58,25 @@ Promise that resolves to a track
 
 #### Defined in
 
-[src/node/Rest.ts:221](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L221)
+[node/Rest.ts:221](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L221)
 
 ***
 
+<a id="destroyplayer" name="destroyplayer"></a>
+
 ### destroyPlayer()
 
-> **destroyPlayer**(`guildId`): `Promise`\<`void`\>
+```ts
+destroyPlayer(guildId: string): Promise<void>
+```
 
 Deletes a Lavalink player
 
 #### Parameters
 
-• **guildId**: `string`
-
-guildId where this player is
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `guildId` | `string` | guildId where this player is |
 
 #### Returns
 
@@ -75,13 +84,17 @@ guildId where this player is
 
 #### Defined in
 
-[src/node/Rest.ts:275](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L275)
+[node/Rest.ts:275](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L275)
 
 ***
 
+<a id="getlavalinkinfo" name="getlavalinkinfo"></a>
+
 ### getLavalinkInfo()
 
-> **getLavalinkInfo**(): `Promise`\<`undefined` \| [`NodeInfo`](/api/type-aliases/nodeinfo/)\>
+```ts
+getLavalinkInfo(): Promise<undefined | NodeInfo>
+```
 
 Get Lavalink info
 
@@ -91,19 +104,25 @@ Get Lavalink info
 
 #### Defined in
 
-[src/node/Rest.ts:344](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L344)
+[node/Rest.ts:344](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L344)
 
 ***
 
+<a id="getplayer" name="getplayer"></a>
+
 ### getPlayer()
 
-> **getPlayer**(`guildId`): `Promise`\<`undefined` \| [`LavalinkPlayer`](/api/interfaces/lavalinkplayer/)\>
+```ts
+getPlayer(guildId: string): Promise<undefined | LavalinkPlayer>
+```
 
 Gets all the player with the specified sessionId
 
 #### Parameters
 
-• **guildId**: `string`
+| Parameter | Type |
+| ------ | ------ |
+| `guildId` | `string` |
 
 #### Returns
 
@@ -113,13 +132,17 @@ Promise that resolves to an array of Lavalink players
 
 #### Defined in
 
-[src/node/Rest.ts:245](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L245)
+[node/Rest.ts:245](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L245)
 
 ***
 
+<a id="getplayers" name="getplayers"></a>
+
 ### getPlayers()
 
-> **getPlayers**(): `Promise`\<[`LavalinkPlayer`](/api/interfaces/lavalinkplayer/)[]\>
+```ts
+getPlayers(): Promise<LavalinkPlayer[]>
+```
 
 Gets all the player with the specified sessionId
 
@@ -131,13 +154,17 @@ Promise that resolves to an array of Lavalink players
 
 #### Defined in
 
-[src/node/Rest.ts:233](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L233)
+[node/Rest.ts:233](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L233)
 
 ***
 
+<a id="getrouteplannerstatus" name="getrouteplannerstatus"></a>
+
 ### getRoutePlannerStatus()
 
-> **getRoutePlannerStatus**(): `Promise`\<`undefined` \| [`RoutePlanner`](/api/interfaces/routeplanner/)\>
+```ts
+getRoutePlannerStatus(): Promise<undefined | RoutePlanner>
+```
 
 Get routeplanner status from Lavalink
 
@@ -149,21 +176,25 @@ Promise that resolves to a routeplanner response
 
 #### Defined in
 
-[src/node/Rest.ts:317](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L317)
+[node/Rest.ts:317](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L317)
 
 ***
 
+<a id="resolve" name="resolve"></a>
+
 ### resolve()
 
-> **resolve**(`identifier`): `Promise`\<`undefined` \| [`LavalinkResponse`](/api/type-aliases/lavalinkresponse/)\>
+```ts
+resolve(identifier: string): Promise<undefined | LavalinkResponse>
+```
 
 Resolve a track
 
 #### Parameters
 
-• **identifier**: `string`
-
-Track ID
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `identifier` | `string` | Track ID |
 
 #### Returns
 
@@ -173,13 +204,17 @@ A promise that resolves to a Lavalink response
 
 #### Defined in
 
-[src/node/Rest.ts:208](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L208)
+[node/Rest.ts:208](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L208)
 
 ***
 
+<a id="stats" name="stats"></a>
+
 ### stats()
 
-> **stats**(): `Promise`\<`undefined` \| [`NodeStats`](/api/interfaces/nodestats/)\>
+```ts
+stats(): Promise<undefined | NodeStats>
+```
 
 Gets the status of this node
 
@@ -191,21 +226,25 @@ Promise that resolves to a node stats response
 
 #### Defined in
 
-[src/node/Rest.ts:305](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L305)
+[node/Rest.ts:305](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L305)
 
 ***
 
+<a id="unmarkfailedaddress" name="unmarkfailedaddress"></a>
+
 ### unmarkFailedAddress()
 
-> **unmarkFailedAddress**(`address`): `Promise`\<`void`\>
+```ts
+unmarkFailedAddress(address: string): Promise<void>
+```
 
 Release blacklisted IP address into pool of IPs
 
 #### Parameters
 
-• **address**: `string`
-
-IP address
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `address` | `string` | IP address |
 
 #### Returns
 
@@ -213,21 +252,25 @@ IP address
 
 #### Defined in
 
-[src/node/Rest.ts:329](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L329)
+[node/Rest.ts:329](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L329)
 
 ***
 
+<a id="updateplayer" name="updateplayer"></a>
+
 ### updatePlayer()
 
-> **updatePlayer**(`data`): `Promise`\<`undefined` \| [`LavalinkPlayer`](/api/interfaces/lavalinkplayer/)\>
+```ts
+updatePlayer(data: UpdatePlayerInfo): Promise<undefined | LavalinkPlayer>
+```
 
 Updates a Lavalink player
 
 #### Parameters
 
-• **data**: [`UpdatePlayerInfo`](/api/interfaces/updateplayerinfo/)
-
-SessionId from Discord
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `data` | [`UpdatePlayerInfo`](/api/interfaces/updateplayerinfo/) | SessionId from Discord |
 
 #### Returns
 
@@ -237,25 +280,26 @@ Promise that resolves to a Lavalink player
 
 #### Defined in
 
-[src/node/Rest.ts:258](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L258)
+[node/Rest.ts:258](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L258)
 
 ***
 
+<a id="updatesession" name="updatesession"></a>
+
 ### updateSession()
 
-> **updateSession**(`resuming`?, `timeout`?): `Promise`\<`undefined` \| [`SessionInfo`](/api/interfaces/sessioninfo/)\>
+```ts
+updateSession(resuming?: boolean, timeout?: number): Promise<undefined | SessionInfo>
+```
 
 Updates the session with a resume boolean and timeout
 
 #### Parameters
 
-• **resuming?**: `boolean`
-
-Whether resuming is enabled for this session or not
-
-• **timeout?**: `number`
-
-Timeout to wait for resuming
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `resuming`? | `boolean` | Whether resuming is enabled for this session or not |
+| `timeout`? | `number` | Timeout to wait for resuming |
 
 #### Returns
 
@@ -265,4 +309,4 @@ Promise that resolves to a Lavalink player
 
 #### Defined in
 
-[src/node/Rest.ts:289](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L289)
+[node/Rest.ts:289](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L289)

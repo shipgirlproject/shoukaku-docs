@@ -7,10 +7,14 @@ title: "LowPassSettings"
 
 ## Properties
 
+<a id="smoothing" name="smoothing"></a>
+
 ### smoothing?
 
-> `optional` **smoothing**: `number`
+```ts
+optional smoothing: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:59](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L59)
+[guild/Player.ts:59](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L59)

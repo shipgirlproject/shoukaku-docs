@@ -7,40 +7,9 @@ title: "OpCodes"
 
 ## Enumeration Members
 
-### EVENT
-
-> **EVENT**: `"event"`
-
-#### Defined in
-
-[src/Constants.ts:23](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L23)
-
-***
-
-### PLAYER\_UPDATE
-
-> **PLAYER\_UPDATE**: `"playerUpdate"`
-
-#### Defined in
-
-[src/Constants.ts:21](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L21)
-
-***
-
-### READY
-
-> **READY**: `"ready"`
-
-#### Defined in
-
-[src/Constants.ts:24](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L24)
-
-***
-
-### STATS
-
-> **STATS**: `"stats"`
-
-#### Defined in
-
-[src/Constants.ts:22](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Constants.ts#L22)
+| Enumeration Member | Value | Defined in |
+| ------ | ------ | ------ |
+| <a id="event" name="event"></a> `EVENT` | `"event"` | [Constants.ts:23](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L23) |
+| <a id="player_update" name="player_update"></a> `PLAYER_UPDATE` | `"playerUpdate"` | [Constants.ts:21](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L21) |
+| <a id="ready" name="ready"></a> `READY` | `"ready"` | [Constants.ts:24](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L24) |
+| <a id="stats" name="stats"></a> `STATS` | `"stats"` | [Constants.ts:22](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L22) |

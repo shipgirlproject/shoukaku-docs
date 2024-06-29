@@ -7,24 +7,32 @@ title: "Structures"
 
 ## Properties
 
+<a id="player" name="player"></a>
+
 ### player?
 
-> `optional` **player**: [`Constructor`](/api/namespaces/utils/type-aliases/constructor/)\<[`Player`](/api/classes/player/)\>
+```ts
+optional player: Constructor<Player>;
+```
 
 A custom structure that extends the Player class
 
 #### Defined in
 
-[src/Shoukaku.ts:18](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L18)
+[Shoukaku.ts:18](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L18)
 
 ***
 
+<a id="rest" name="rest"></a>
+
 ### rest?
 
-> `optional` **rest**: [`Constructor`](/api/namespaces/utils/type-aliases/constructor/)\<[`Rest`](/api/classes/rest/)\>
+```ts
+optional rest: Constructor<Rest>;
+```
 
 A custom structure that extends the Rest class
 
 #### Defined in
 
-[src/Shoukaku.ts:14](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L14)
+[Shoukaku.ts:14](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L14)

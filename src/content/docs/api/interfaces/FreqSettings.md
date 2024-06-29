@@ -7,20 +7,28 @@ title: "FreqSettings"
 
 ## Properties
 
+<a id="depth" name="depth"></a>
+
 ### depth?
 
-> `optional` **depth**: `number`
+```ts
+optional depth: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:33](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L33)
+[guild/Player.ts:33](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L33)
 
 ***
 
+<a id="frequency" name="frequency"></a>
+
 ### frequency?
 
-> `optional` **frequency**: `number`
+```ts
+optional frequency: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:32](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L32)
+[guild/Player.ts:32](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L32)

@@ -7,30 +7,42 @@ title: "UpdatePlayerTrackOptions"
 
 ## Properties
 
+<a id="encoded" name="encoded"></a>
+
 ### encoded?
 
-> `optional` **encoded**: `null` \| `string`
+```ts
+optional encoded: null | string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:119](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L119)
+[node/Rest.ts:119](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L119)
 
 ***
+
+<a id="identifier" name="identifier"></a>
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+```ts
+optional identifier: string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:120](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L120)
+[node/Rest.ts:120](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L120)
 
 ***
 
+<a id="userdata" name="userdata"></a>
+
 ### userData?
 
-> `optional` **userData**: `unknown`
+```ts
+optional userData: unknown;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:121](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L121)
+[node/Rest.ts:121](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L121)

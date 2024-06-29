@@ -7,20 +7,28 @@ title: "TrackResult"
 
 ## Properties
 
+<a id="data" name="data"></a>
+
 ### data
 
-> **data**: [`Track`](/api/interfaces/track/)
+```ts
+data: Track;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:52](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L52)
+[node/Rest.ts:52](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L52)
 
 ***
 
+<a id="loadtype" name="loadtype"></a>
+
 ### loadType
 
-> **loadType**: [`TRACK`](/api/enumerations/loadtype/#track)
+```ts
+loadType: TRACK;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:51](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L51)
+[node/Rest.ts:51](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L51)

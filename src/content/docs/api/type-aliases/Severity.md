@@ -5,8 +5,10 @@ prev: false
 title: "Severity"
 ---
 
-> **Severity**: `"common"` \| `"suspicious"` \| `"fault"`
+```ts
+type Severity: "common" | "suspicious" | "fault";
+```
 
 ## Defined in
 
-[src/node/Rest.ts:6](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L6)
+[node/Rest.ts:6](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L6)

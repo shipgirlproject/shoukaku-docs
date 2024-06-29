@@ -5,23 +5,24 @@ prev: false
 title: "mergeDefault"
 ---
 
-> **mergeDefault**\<`T`\>(`def`, `given`): `Required`\<`T`\>
+```ts
+function mergeDefault<T>(def: T, given: T): Required<T>
+```
 
 Merge the default options to user input
 
 ## Type Parameters
 
-• **T** *extends* `object`
+| Type Parameter |
+| ------ |
+| `T` *extends* \{\} |
 
 ## Parameters
 
-• **def**: `T`
-
-Default options
-
-• **given**: `T`
-
-User input
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `def` | `T` | Default options |
+| `given` | `T` | User input |
 
 ## Returns
 
@@ -31,4 +32,4 @@ Merged options
 
 ## Defined in
 
-[src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Utils.ts#L9)
+[Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Utils.ts#L9)

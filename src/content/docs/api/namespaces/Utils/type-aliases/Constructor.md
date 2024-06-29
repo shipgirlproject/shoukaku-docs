@@ -5,15 +5,21 @@ prev: false
 title: "Constructor"
 ---
 
-> **Constructor**\<`T`\>: (...`args`) => `T`
+```ts
+type Constructor<T>: (...args: any[]) => T;
+```
 
 ## Type Parameters
 
-• **T**
+| Type Parameter |
+| ------ |
+| `T` |
 
 ## Parameters
 
-• ...**args**: `any`[]
+| Parameter | Type |
+| ------ | ------ |
+| ...`args` | `any`[] |
 
 ## Returns
 
@@ -21,4 +27,4 @@ title: "Constructor"
 
 ## Defined in
 
-[src/Utils.ts:1](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Utils.ts#L1)
+[Utils.ts:1](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Utils.ts#L1)

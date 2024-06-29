@@ -7,60 +7,84 @@ title: "LavalinkPlayer"
 
 ## Properties
 
+<a id="filters" name="filters"></a>
+
 ### filters
 
-> **filters**: [`FilterOptions`](/api/interfaces/filteroptions/)
+```ts
+filters: FilterOptions;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:115](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L115)
+[node/Rest.ts:115](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L115)
 
 ***
+
+<a id="guildid" name="guildid"></a>
 
 ### guildId
 
-> **guildId**: `string`
+```ts
+guildId: string;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:110](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L110)
+[node/Rest.ts:110](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L110)
 
 ***
+
+<a id="paused" name="paused"></a>
 
 ### paused
 
-> **paused**: `boolean`
+```ts
+paused: boolean;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:113](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L113)
+[node/Rest.ts:113](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L113)
 
 ***
+
+<a id="track" name="track"></a>
 
 ### track?
 
-> `optional` **track**: [`Track`](/api/interfaces/track/)
+```ts
+optional track: Track;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:111](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L111)
+[node/Rest.ts:111](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L111)
 
 ***
+
+<a id="voice" name="voice"></a>
 
 ### voice
 
-> **voice**: [`LavalinkPlayerVoice`](/api/interfaces/lavalinkplayervoice/)
+```ts
+voice: LavalinkPlayerVoice;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:114](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L114)
+[node/Rest.ts:114](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L114)
 
 ***
 
+<a id="volume" name="volume"></a>
+
 ### volume
 
-> **volume**: `number`
+```ts
+volume: number;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:112](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L112)
+[node/Rest.ts:112](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L112)

@@ -7,42 +7,70 @@ title: "PlayerUpdate"
 
 ## Properties
 
+<a id="guildid" name="guildid"></a>
+
 ### guildId
 
-> **guildId**: `string`
+```ts
+guildId: string;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:109](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L109)
+[guild/Player.ts:109](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L109)
 
 ***
+
+<a id="op" name="op"></a>
 
 ### op
 
-> **op**: [`PLAYER_UPDATE`](/api/namespaces/constants/enumerations/opcodes/#player_update)
+```ts
+op: PLAYER_UPDATE;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:103](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L103)
+[guild/Player.ts:103](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L103)
 
 ***
 
+<a id="state" name="state"></a>
+
 ### state
 
-> **state**: `object`
+```ts
+state: {
+  connected: boolean;
+  position: number;
+  time: number;
+};
+```
+
+<a id="connected" name="connected"></a>
 
 #### connected
 
-> **connected**: `boolean`
+```ts
+connected: boolean;
+```
+
+<a id="position" name="position"></a>
 
 #### position?
 
-> `optional` **position**: `number`
+```ts
+optional position: number;
+```
+
+<a id="time" name="time"></a>
 
 #### time
 
-> **time**: `number`
+```ts
+time: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:104](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L104)
+[guild/Player.ts:104](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L104)

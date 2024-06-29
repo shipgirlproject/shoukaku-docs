@@ -7,84 +7,112 @@ title: "ShoukakuEvents"
 
 ## Events
 
+<a id="close" name="close"></a>
+
 ### close
 
-> **close**: [`string`, `number`, `string`]
+```ts
+close: [string, number, string];
+```
 
 Emitted when a websocket connection to Lavalink closes
 
 #### Defined in
 
-[src/Shoukaku.ts:124](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L124)
+[Shoukaku.ts:124](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L124)
 
 ***
 
+<a id="debug" name="debug"></a>
+
 ### debug
 
-> **debug**: [`string`, `string`]
+```ts
+debug: [string, string];
+```
 
 Emitted when data useful for debugging is produced
 
 #### Defined in
 
-[src/Shoukaku.ts:109](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L109)
+[Shoukaku.ts:109](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L109)
 
 ***
 
+<a id="disconnect" name="disconnect"></a>
+
 ### disconnect
 
-> **disconnect**: [`string`, `number`]
+```ts
+disconnect: [string, number];
+```
 
 Emitted when a websocket connection to Lavalink disconnects
 
 #### Defined in
 
-[src/Shoukaku.ts:129](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L129)
+[Shoukaku.ts:129](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L129)
 
 ***
 
+<a id="error" name="error"></a>
+
 ### error
 
-> **error**: [`string`, `Error`]
+```ts
+error: [string, Error];
+```
 
 Emitted when an error occurs
 
 #### Defined in
 
-[src/Shoukaku.ts:114](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L114)
+[Shoukaku.ts:114](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L114)
 
 ***
 
+<a id="raw" name="raw"></a>
+
 ### raw
 
-> **raw**: [`string`, `unknown`]
+```ts
+raw: [string, unknown];
+```
 
 Emitted when a raw message is received from Lavalink
 
 #### Defined in
 
-[src/Shoukaku.ts:134](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L134)
+[Shoukaku.ts:134](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L134)
 
 ***
 
+<a id="ready" name="ready"></a>
+
 ### ready
 
-> **ready**: [`string`, `boolean`]
+```ts
+ready: [string, boolean];
+```
 
 Emitted when Shoukaku is ready to receive operations
 
 #### Defined in
 
-[src/Shoukaku.ts:119](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L119)
+[Shoukaku.ts:119](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L119)
 
 ***
 
+<a id="reconnecting" name="reconnecting"></a>
+
 ### reconnecting
 
-> **reconnecting**: [`string`, `number`, `number`]
+```ts
+reconnecting: [string, number, number];
+```
 
 Emitted when reconnect tries are occurring and how many tries are left
 
 #### Defined in
 
-[src/Shoukaku.ts:104](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L104)
+[Shoukaku.ts:104](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L104)

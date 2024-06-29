@@ -7,20 +7,28 @@ title: "ErrorResult"
 
 ## Properties
 
+<a id="data" name="data"></a>
+
 ### data
 
-> **data**: [`Exception`](/api/interfaces/exception/)
+```ts
+data: Exception;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:72](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L72)
+[node/Rest.ts:72](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L72)
 
 ***
 
+<a id="loadtype" name="loadtype"></a>
+
 ### loadType
 
-> **loadType**: [`ERROR`](/api/enumerations/loadtype/#error)
+```ts
+loadType: ERROR;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:71](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L71)
+[node/Rest.ts:71](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L71)

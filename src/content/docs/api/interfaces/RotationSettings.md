@@ -7,10 +7,14 @@ title: "RotationSettings"
 
 ## Properties
 
+<a id="rotationhz" name="rotationhz"></a>
+
 ### rotationHz?
 
-> `optional` **rotationHz**: `number`
+```ts
+optional rotationHz: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:37](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L37)
+[guild/Player.ts:37](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L37)

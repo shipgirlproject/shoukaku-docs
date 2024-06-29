@@ -5,8 +5,15 @@ prev: false
 title: "PlayerEventType"
 ---
 
-> **PlayerEventType**: `"TrackStartEvent"` \| `"TrackEndEvent"` \| `"TrackExceptionEvent"` \| `"TrackStuckEvent"` \| `"WebSocketClosedEvent"`
+```ts
+type PlayerEventType: 
+  | "TrackStartEvent"
+  | "TrackEndEvent"
+  | "TrackExceptionEvent"
+  | "TrackStuckEvent"
+  | "WebSocketClosedEvent";
+```
 
 ## Defined in
 
-[src/guild/Player.ts:9](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L9)
+[guild/Player.ts:9](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L9)

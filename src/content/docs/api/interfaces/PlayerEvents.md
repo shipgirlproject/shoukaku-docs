@@ -7,84 +7,112 @@ title: "PlayerEvents"
 
 ## Events
 
+<a id="closed" name="closed"></a>
+
 ### closed
 
-> **closed**: [[`WebSocketClosedEvent`](/api/interfaces/websocketclosedevent/)]
+```ts
+closed: [WebSocketClosedEvent];
+```
 
 Emitted when the current websocket connection is closed
 
 #### Defined in
 
-[src/guild/Player.ts:140](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L140)
+[guild/Player.ts:140](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L140)
 
 ***
 
+<a id="end" name="end"></a>
+
 ### end
 
-> **end**: [[`TrackEndEvent`](/api/interfaces/trackendevent/)]
+```ts
+end: [TrackEndEvent];
+```
 
 Emitted when the current playing track ends
 
 #### Defined in
 
-[src/guild/Player.ts:130](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L130)
+[guild/Player.ts:130](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L130)
 
 ***
 
+<a id="exception" name="exception"></a>
+
 ### exception
 
-> **exception**: [[`TrackExceptionEvent`](/api/interfaces/trackexceptionevent/)]
+```ts
+exception: [TrackExceptionEvent];
+```
 
 Emitted when there is an error caused by the current playing track
 
 #### Defined in
 
-[src/guild/Player.ts:150](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L150)
+[guild/Player.ts:150](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L150)
 
 ***
 
+<a id="resumed" name="resumed"></a>
+
 ### resumed
 
-> **resumed**: [[`Player`](/api/classes/player/)]
+```ts
+resumed: [Player];
+```
 
 Emitted when the library manages to resume the player
 
 #### Defined in
 
-[src/guild/Player.ts:155](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L155)
+[guild/Player.ts:155](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L155)
 
 ***
 
+<a id="start" name="start"></a>
+
 ### start
 
-> **start**: [[`TrackStartEvent`](/api/interfaces/trackstartevent/)]
+```ts
+start: [TrackStartEvent];
+```
 
 Emitted when a new track starts
 
 #### Defined in
 
-[src/guild/Player.ts:145](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L145)
+[guild/Player.ts:145](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L145)
 
 ***
 
+<a id="stuck" name="stuck"></a>
+
 ### stuck
 
-> **stuck**: [[`TrackStuckEvent`](/api/interfaces/trackstuckevent/)]
+```ts
+stuck: [TrackStuckEvent];
+```
 
 Emitted when the current playing track gets stuck due to an error
 
 #### Defined in
 
-[src/guild/Player.ts:135](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L135)
+[guild/Player.ts:135](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L135)
 
 ***
 
+<a id="update" name="update"></a>
+
 ### update
 
-> **update**: [[`PlayerUpdate`](/api/interfaces/playerupdate/)]
+```ts
+update: [PlayerUpdate];
+```
 
 Emitted when a playerUpdate even is received from Lavalink
 
 #### Defined in
 
-[src/guild/Player.ts:160](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L160)
+[guild/Player.ts:160](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L160)

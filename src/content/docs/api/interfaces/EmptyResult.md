@@ -7,20 +7,28 @@ title: "EmptyResult"
 
 ## Properties
 
+<a id="data" name="data"></a>
+
 ### data
 
-> **data**: `object`
+```ts
+data: {};
+```
 
 #### Defined in
 
-[src/node/Rest.ts:67](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L67)
+[node/Rest.ts:67](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L67)
 
 ***
 
+<a id="loadtype" name="loadtype"></a>
+
 ### loadType
 
-> **loadType**: [`EMPTY`](/api/enumerations/loadtype/#empty)
+```ts
+loadType: EMPTY;
+```
 
 #### Defined in
 
-[src/node/Rest.ts:66](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/node/Rest.ts#L66)
+[node/Rest.ts:66](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L66)

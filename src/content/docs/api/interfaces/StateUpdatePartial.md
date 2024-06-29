@@ -9,40 +9,56 @@ Represents the partial payload from a stateUpdate event
 
 ## Properties
 
+<a id="channel_id" name="channel_id"></a>
+
 ### channel\_id?
 
-> `optional` **channel\_id**: `string`
+```ts
+optional channel_id: string;
+```
 
 #### Defined in
 
-[src/guild/Connection.ts:9](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Connection.ts#L9)
+[guild/Connection.ts:9](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L9)
 
 ***
+
+<a id="self_deaf" name="self_deaf"></a>
 
 ### self\_deaf
 
-> **self\_deaf**: `boolean`
+```ts
+self_deaf: boolean;
+```
 
 #### Defined in
 
-[src/guild/Connection.ts:11](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Connection.ts#L11)
+[guild/Connection.ts:11](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L11)
 
 ***
+
+<a id="self_mute" name="self_mute"></a>
 
 ### self\_mute
 
-> **self\_mute**: `boolean`
+```ts
+self_mute: boolean;
+```
 
 #### Defined in
 
-[src/guild/Connection.ts:12](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Connection.ts#L12)
+[guild/Connection.ts:12](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L12)
 
 ***
 
+<a id="session_id" name="session_id"></a>
+
 ### session\_id?
 
-> `optional` **session\_id**: `string`
+```ts
+optional session_id: string;
+```
 
 #### Defined in
 
-[src/guild/Connection.ts:10](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Connection.ts#L10)
+[guild/Connection.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L10)

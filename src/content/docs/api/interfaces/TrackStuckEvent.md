@@ -11,9 +11,13 @@ title: "TrackStuckEvent"
 
 ## Properties
 
+<a id="guildid" name="guildid"></a>
+
 ### guildId
 
-> **guildId**: `string`
+```ts
+guildId: string;
+```
 
 #### Inherited from
 
@@ -21,13 +25,17 @@ title: "TrackStuckEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:65](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L65)
+[guild/Player.ts:65](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L65)
 
 ***
 
+<a id="op" name="op"></a>
+
 ### op
 
-> **op**: [`EVENT`](/api/namespaces/constants/enumerations/opcodes/#event)
+```ts
+op: EVENT;
+```
 
 #### Inherited from
 
@@ -35,33 +43,45 @@ title: "TrackStuckEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:63](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L63)
+[guild/Player.ts:63](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L63)
 
 ***
+
+<a id="thresholdms" name="thresholdms"></a>
 
 ### thresholdMs
 
-> **thresholdMs**: `number`
+```ts
+thresholdMs: number;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:82](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L82)
+[guild/Player.ts:82](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L82)
 
 ***
+
+<a id="track" name="track"></a>
 
 ### track
 
-> **track**: [`Track`](/api/interfaces/track/)
+```ts
+track: Track;
+```
 
 #### Defined in
 
-[src/guild/Player.ts:81](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L81)
+[guild/Player.ts:81](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L81)
 
 ***
 
+<a id="type" name="type"></a>
+
 ### type
 
-> **type**: `"TrackStuckEvent"`
+```ts
+type: "TrackStuckEvent";
+```
 
 #### Inherited from
 
@@ -69,4 +89,4 @@ title: "TrackStuckEvent"
 
 #### Defined in
 
-[src/guild/Player.ts:80](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/guild/Player.ts#L80)
+[guild/Player.ts:80](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L80)

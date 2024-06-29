@@ -7,60 +7,80 @@ title: "NodeOption"
 
 ## Properties
 
+<a id="auth" name="auth"></a>
+
 ### auth
 
-> **auth**: `string`
+```ts
+auth: string;
+```
 
 Credentials to access Lavalink
 
 #### Defined in
 
-[src/Shoukaku.ts:33](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L33)
+[Shoukaku.ts:33](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L33)
 
 ***
 
+<a id="group" name="group"></a>
+
 ### group?
 
-> `optional` **group**: `string`
+```ts
+optional group: string;
+```
 
 Name of the Lavalink node group
 
 #### Defined in
 
-[src/Shoukaku.ts:41](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L41)
+[Shoukaku.ts:41](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L41)
 
 ***
 
+<a id="name" name="name"></a>
+
 ### name
 
-> **name**: `string`
+```ts
+name: string;
+```
 
 Name of the Lavalink node
 
 #### Defined in
 
-[src/Shoukaku.ts:25](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L25)
+[Shoukaku.ts:25](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L25)
 
 ***
 
+<a id="secure" name="secure"></a>
+
 ### secure?
 
-> `optional` **secure**: `boolean`
+```ts
+optional secure: boolean;
+```
 
 Whether to use secure protocols or not
 
 #### Defined in
 
-[src/Shoukaku.ts:37](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L37)
+[Shoukaku.ts:37](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L37)
 
 ***
 
+<a id="url" name="url"></a>
+
 ### url
 
-> **url**: `string`
+```ts
+url: string;
+```
 
 Lavalink node host and port without any prefix
 
 #### Defined in
 
-[src/Shoukaku.ts:29](https://github.com/shipgirlproject/shoukaku/blob/f3e4f8953c070c0cdfec493d072e6a22e3555895/src/Shoukaku.ts#L29)
+[Shoukaku.ts:29](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L29)
