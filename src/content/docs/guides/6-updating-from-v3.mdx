@@ -89,7 +89,7 @@ console.log(shoukaku.players);
 You can supply a custom node resolver for your own way of getting an ideal node by supplying the nodeResolver option in Shoukaku options
 ```js
 const ShoukakuOptions = {
-  ...yourShoukakuOptions,
-  nodeResolver: (nodes, connection) => getYourIdealNode(nodes, connection),
+    ...yourShoukakuOptions,
+    nodeResolver: (nodes, connection) => getYourIdealNode(nodes, connection),
 };
 ```
