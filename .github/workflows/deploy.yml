@@ -23,7 +23,7 @@ jobs:
         with:
           submodules: true
       - name: Install dependencies in submodule
-        uses: bahmutov/npm-install@v1.4.5
+        uses: bahmutov/npm-install@v1
         with:
           working-directory: shoukaku
           useLockFile: false
