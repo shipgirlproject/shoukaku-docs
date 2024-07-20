@@ -34,7 +34,7 @@ new Player(guildId: string, node: Node): Player
 
 #### Defined in
 
-[guild/Player.ts:211](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L211)
+[guild/Player.ts:212](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L212)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Filters on current track
 
 #### Defined in
 
-[guild/Player.ts:206](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L206)
+[guild/Player.ts:207](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L207)
 
 ***
 
@@ -66,7 +66,7 @@ GuildId of this player
 
 #### Defined in
 
-[guild/Player.ts:178](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L178)
+[guild/Player.ts:179](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L179)
 
 ***
 
@@ -82,7 +82,7 @@ Lavalink node this player is connected to
 
 #### Defined in
 
-[guild/Player.ts:182](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L182)
+[guild/Player.ts:183](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L183)
 
 ***
 
@@ -98,7 +98,7 @@ Pause status in current player
 
 #### Defined in
 
-[guild/Player.ts:194](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L194)
+[guild/Player.ts:195](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L195)
 
 ***
 
@@ -114,7 +114,7 @@ Ping represents the number of milliseconds between heartbeat and ack. Could be `
 
 #### Defined in
 
-[guild/Player.ts:198](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L198)
+[guild/Player.ts:199](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L199)
 
 ***
 
@@ -130,7 +130,7 @@ Position in ms of current track
 
 #### Defined in
 
-[guild/Player.ts:202](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L202)
+[guild/Player.ts:203](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L203)
 
 ***
 
@@ -146,7 +146,7 @@ Base64 encoded data of the current track
 
 #### Defined in
 
-[guild/Player.ts:186](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L186)
+[guild/Player.ts:187](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L187)
 
 ***
 
@@ -162,7 +162,7 @@ Global volume of the player
 
 #### Defined in
 
-[guild/Player.ts:190](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L190)
+[guild/Player.ts:191](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L191)
 
 ## Accessors
 
@@ -180,7 +180,7 @@ get data(): UpdatePlayerInfo
 
 #### Defined in
 
-[guild/Player.ts:223](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L223)
+[guild/Player.ts:224](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L224)
 
 ## Methods
 
@@ -200,7 +200,7 @@ Clear all filters applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:414](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L414)
+[guild/Player.ts:415](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L415)
 
 ***
 
@@ -220,7 +220,7 @@ Destroys the player in remote lavalink side
 
 #### Defined in
 
-[guild/Player.ts:278](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L278)
+[guild/Player.ts:279](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L279)
 
 ***
 
@@ -245,7 +245,7 @@ emit(event: string | symbol, ...args: unknown[]): boolean
 
 #### Defined in
 
-[guild/Player.ts:167](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L167)
+[guild/Player.ts:168](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L168)
 
 ***
 
@@ -273,7 +273,7 @@ true if the player was moved, false if not
 
 #### Defined in
 
-[guild/Player.ts:249](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L249)
+[guild/Player.ts:250](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L250)
 
 ***
 
@@ -304,7 +304,7 @@ off<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
 
 #### Defined in
 
-[guild/Player.ts:166](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L166)
+[guild/Player.ts:167](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L167)
 
 ***
 
@@ -335,7 +335,7 @@ on<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
 
 #### Defined in
 
-[guild/Player.ts:164](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L164)
+[guild/Player.ts:165](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L165)
 
 ***
 
@@ -344,12 +344,7 @@ on<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
 ### onPlayerUpdate()
 
 ```ts
-onPlayerUpdate(json: {
-  state: {
-     ping: number;
-     position: number;
-    };
- }): void
+onPlayerUpdate(json: PlayerUpdate): void
 ```
 
 Handle player update data
@@ -358,10 +353,7 @@ Handle player update data
 
 | Parameter | Type |
 | ------ | ------ |
-| `json` | `object` |
-| `json.state` | `object` |
-| `json.state.ping` | `number` |
-| `json.state.position` | `number` |
+| `json` | [`PlayerUpdate`](/api/interfaces/playerupdate/) |
 
 #### Returns
 
@@ -369,7 +361,7 @@ Handle player update data
 
 #### Defined in
 
-[guild/Player.ts:513](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L513)
+[guild/Player.ts:516](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L516)
 
 ***
 
@@ -400,7 +392,7 @@ once<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
 
 #### Defined in
 
-[guild/Player.ts:165](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L165)
+[guild/Player.ts:166](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L166)
 
 ***
 
@@ -427,7 +419,7 @@ Play a new track
 
 #### Defined in
 
-[guild/Player.ts:287](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L287)
+[guild/Player.ts:288](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L288)
 
 ***
 
@@ -454,7 +446,7 @@ Resumes the current track
 
 #### Defined in
 
-[guild/Player.ts:434](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L434)
+[guild/Player.ts:435](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L435)
 
 ***
 
@@ -480,7 +472,7 @@ Seek to a specific time in the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:310](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L310)
+[guild/Player.ts:311](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L311)
 
 ***
 
@@ -506,7 +498,7 @@ Change the channel mix settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:391](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L391)
+[guild/Player.ts:392](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L392)
 
 ***
 
@@ -534,7 +526,7 @@ The current player instance
 
 #### Defined in
 
-[guild/Player.ts:383](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L383)
+[guild/Player.ts:384](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L384)
 
 ***
 
@@ -560,7 +552,7 @@ Change the equalizer settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:334](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L334)
+[guild/Player.ts:335](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L335)
 
 ***
 
@@ -586,7 +578,7 @@ Sets the filter volume of the player
 
 #### Defined in
 
-[guild/Player.ts:326](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L326)
+[guild/Player.ts:327](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L327)
 
 ***
 
@@ -612,7 +604,7 @@ Change the all filter settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:407](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L407)
+[guild/Player.ts:408](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L408)
 
 ***
 
@@ -638,7 +630,7 @@ Sets the global volume of the player
 
 #### Defined in
 
-[guild/Player.ts:318](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L318)
+[guild/Player.ts:319](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L319)
 
 ***
 
@@ -664,7 +656,7 @@ Change the karaoke settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:342](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L342)
+[guild/Player.ts:343](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L343)
 
 ***
 
@@ -690,7 +682,7 @@ Change the low pass settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:399](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L399)
+[guild/Player.ts:400](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L400)
 
 ***
 
@@ -716,7 +708,7 @@ Pause or unpause the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:302](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L302)
+[guild/Player.ts:303](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L303)
 
 ***
 
@@ -742,7 +734,7 @@ Change the rotation settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:374](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L374)
+[guild/Player.ts:375](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L375)
 
 ***
 
@@ -768,7 +760,7 @@ Change the timescale settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:350](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L350)
+[guild/Player.ts:351](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L351)
 
 ***
 
@@ -794,7 +786,7 @@ Change the tremolo settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:358](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L358)
+[guild/Player.ts:359](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L359)
 
 ***
 
@@ -820,7 +812,7 @@ Change the vibrato settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:366](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L366)
+[guild/Player.ts:367](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L367)
 
 ***
 
@@ -840,7 +832,7 @@ Stop the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:294](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L294)
+[guild/Player.ts:295](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L295)
 
 ***
 
@@ -867,4 +859,4 @@ If you want to update the whole player yourself, sends raw update player info to
 
 #### Defined in
 
-[guild/Player.ts:456](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L456)
+[guild/Player.ts:457](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L457)

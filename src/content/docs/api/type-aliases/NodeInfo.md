@@ -22,15 +22,15 @@ type NodeInfo: {
 
 | Name | Type | Defined in |
 | ------ | ------ | ------ |
-| `buildTime` | `number` | [node/Node.ts:53](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L53) |
-| `filters` | `string`[] | [node/Node.ts:58](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L58) |
-| `git` | `NodeInfoGit` | [node/Node.ts:54](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L54) |
-| `jvm` | `string` | [node/Node.ts:55](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L55) |
-| `lavaplayer` | `string` | [node/Node.ts:56](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L56) |
-| `plugins` | `NodeInfoPlugin`[] | [node/Node.ts:59](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L59) |
-| `sourceManagers` | `string`[] | [node/Node.ts:57](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L57) |
-| `version` | `NodeInfoVersion` | [node/Node.ts:52](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L52) |
+| `buildTime` | `number` | [node/Node.ts:61](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L61) |
+| `filters` | `string`[] | [node/Node.ts:66](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L66) |
+| `git` | [`NodeInfoGit`](/api/type-aliases/nodeinfogit/) | [node/Node.ts:62](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L62) |
+| `jvm` | `string` | [node/Node.ts:63](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L63) |
+| `lavaplayer` | `string` | [node/Node.ts:64](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L64) |
+| `plugins` | [`NodeInfoPlugin`](/api/type-aliases/nodeinfoplugin/)[] | [node/Node.ts:67](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L67) |
+| `sourceManagers` | `string`[] | [node/Node.ts:65](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L65) |
+| `version` | [`NodeInfoVersion`](/api/type-aliases/nodeinfoversion/) | [node/Node.ts:60](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L60) |
 
 ## Defined in
 
-[node/Node.ts:51](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L51)
+[node/Node.ts:59](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L59)

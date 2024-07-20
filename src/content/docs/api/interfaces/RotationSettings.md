@@ -17,4 +17,4 @@ optional rotationHz: number;
 
 #### Defined in
 
-[guild/Player.ts:37](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L37)
+[guild/Player.ts:43](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L43)

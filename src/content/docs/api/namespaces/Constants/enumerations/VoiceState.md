@@ -9,7 +9,7 @@ title: "VoiceState"
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="session_endpoint_missing" name="session_endpoint_missing"></a> `SESSION_ENDPOINT_MISSING` | `2` | [Constants.ts:16](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L16) |
-| <a id="session_failed_update" name="session_failed_update"></a> `SESSION_FAILED_UPDATE` | `3` | [Constants.ts:17](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L17) |
-| <a id="session_id_missing" name="session_id_missing"></a> `SESSION_ID_MISSING` | `1` | [Constants.ts:15](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L15) |
-| <a id="session_ready" name="session_ready"></a> `SESSION_READY` | `0` | [Constants.ts:14](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Constants.ts#L14) |
+| <a id="session_endpoint_missing" name="session_endpoint_missing"></a> `SESSION_ENDPOINT_MISSING` | `2` | [Constants.ts:16](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Constants.ts#L16) |
+| <a id="session_failed_update" name="session_failed_update"></a> `SESSION_FAILED_UPDATE` | `3` | [Constants.ts:17](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Constants.ts#L17) |
+| <a id="session_id_missing" name="session_id_missing"></a> `SESSION_ID_MISSING` | `1` | [Constants.ts:15](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Constants.ts#L15) |
+| <a id="session_ready" name="session_ready"></a> `SESSION_READY` | `0` | [Constants.ts:14](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Constants.ts#L14) |

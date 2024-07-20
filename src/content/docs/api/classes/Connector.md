@@ -34,7 +34,7 @@ new Connector(client: any): Connector
 
 #### Defined in
 
-[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L15)
+[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L15)
 
 ## Methods
 
@@ -52,7 +52,7 @@ abstract getId(): string
 
 #### Defined in
 
-[connectors/Connector.ts:41](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L41)
+[connectors/Connector.ts:41](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L41)
 
 ***
 
@@ -76,7 +76,7 @@ abstract listen(nodes: NodeOption[]): void
 
 #### Defined in
 
-[connectors/Connector.ts:45](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L45)
+[connectors/Connector.ts:45](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L45)
 
 ***
 
@@ -105,7 +105,7 @@ abstract sendPacket(
 
 #### Defined in
 
-[connectors/Connector.ts:43](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L43)
+[connectors/Connector.ts:43](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L43)
 
 ***
 
@@ -129,4 +129,4 @@ set(manager: Shoukaku): Connector
 
 #### Defined in
 
-[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L20)
+[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L20)

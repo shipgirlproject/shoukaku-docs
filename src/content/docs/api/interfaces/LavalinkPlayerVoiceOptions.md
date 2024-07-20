@@ -25,7 +25,7 @@ endpoint: string;
 
 #### Defined in
 
-[node/Rest.ts:101](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L101)
+[node/Rest.ts:101](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L101)
 
 ***
 
@@ -43,7 +43,7 @@ sessionId: string;
 
 #### Defined in
 
-[node/Rest.ts:102](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L102)
+[node/Rest.ts:102](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L102)
 
 ***
 
@@ -61,4 +61,4 @@ token: string;
 
 #### Defined in
 
-[node/Rest.ts:100](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L100)
+[node/Rest.ts:100](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L100)

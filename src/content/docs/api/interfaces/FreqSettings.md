@@ -17,7 +17,7 @@ optional depth: number;
 
 #### Defined in
 
-[guild/Player.ts:33](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L33)
+[guild/Player.ts:39](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L39)
 
 ***
 
@@ -31,4 +31,4 @@ optional frequency: number;
 
 #### Defined in
 
-[guild/Player.ts:32](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L32)
+[guild/Player.ts:38](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L38)

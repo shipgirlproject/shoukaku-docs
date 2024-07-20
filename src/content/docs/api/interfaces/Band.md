@@ -17,7 +17,7 @@ band: number;
 
 #### Defined in
 
-[guild/Player.ts:14](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L14)
+[guild/Player.ts:20](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L20)
 
 ***
 
@@ -31,4 +31,4 @@ gain: number;
 
 #### Defined in
 
-[guild/Player.ts:15](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L15)
+[guild/Player.ts:21](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L21)

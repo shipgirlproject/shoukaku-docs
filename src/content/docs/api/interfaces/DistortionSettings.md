@@ -17,7 +17,7 @@ optional cosOffset: number;
 
 #### Defined in
 
-[guild/Player.ts:43](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L43)
+[guild/Player.ts:49](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L49)
 
 ***
 
@@ -31,7 +31,7 @@ optional cosScale: number;
 
 #### Defined in
 
-[guild/Player.ts:44](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L44)
+[guild/Player.ts:50](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L50)
 
 ***
 
@@ -45,7 +45,7 @@ optional offset: number;
 
 #### Defined in
 
-[guild/Player.ts:47](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L47)
+[guild/Player.ts:53](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L53)
 
 ***
 
@@ -59,7 +59,7 @@ optional scale: number;
 
 #### Defined in
 
-[guild/Player.ts:48](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L48)
+[guild/Player.ts:54](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L54)
 
 ***
 
@@ -73,7 +73,7 @@ optional sinOffset: number;
 
 #### Defined in
 
-[guild/Player.ts:41](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L41)
+[guild/Player.ts:47](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L47)
 
 ***
 
@@ -87,7 +87,7 @@ optional sinScale: number;
 
 #### Defined in
 
-[guild/Player.ts:42](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L42)
+[guild/Player.ts:48](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L48)
 
 ***
 
@@ -101,7 +101,7 @@ optional tanOffset: number;
 
 #### Defined in
 
-[guild/Player.ts:45](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L45)
+[guild/Player.ts:51](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L51)
 
 ***
 
@@ -115,4 +115,4 @@ optional tanScale: number;
 
 #### Defined in
 
-[guild/Player.ts:46](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L46)
+[guild/Player.ts:52](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L52)

@@ -17,7 +17,7 @@ encoded: string;
 
 #### Defined in
 
-[node/Rest.ts:35](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L35)
+[node/Rest.ts:35](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L35)
 
 ***
 
@@ -50,7 +50,7 @@ selectedTrack: number;
 
 #### Defined in
 
-[node/Rest.ts:36](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L36)
+[node/Rest.ts:36](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L36)
 
 ***
 
@@ -64,7 +64,7 @@ pluginInfo: unknown;
 
 #### Defined in
 
-[node/Rest.ts:40](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L40)
+[node/Rest.ts:40](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L40)
 
 ***
 
@@ -78,4 +78,4 @@ tracks: Track[];
 
 #### Defined in
 
-[node/Rest.ts:41](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L41)
+[node/Rest.ts:41](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L41)

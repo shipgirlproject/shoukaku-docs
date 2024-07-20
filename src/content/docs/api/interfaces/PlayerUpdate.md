@@ -17,7 +17,7 @@ guildId: string;
 
 #### Defined in
 
-[guild/Player.ts:109](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L109)
+[guild/Player.ts:110](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L110)
 
 ***
 
@@ -31,7 +31,7 @@ op: PLAYER_UPDATE;
 
 #### Defined in
 
-[guild/Player.ts:103](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L103)
+[guild/Player.ts:103](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L103)
 
 ***
 
@@ -42,6 +42,7 @@ op: PLAYER_UPDATE;
 ```ts
 state: {
   connected: boolean;
+  ping: number;
   position: number;
   time: number;
 };
@@ -55,12 +56,20 @@ state: {
 connected: boolean;
 ```
 
-<a id="position" name="position"></a>
+<a id="ping" name="ping"></a>
 
-#### position?
+#### ping
 
 ```ts
-optional position: number;
+ping: number;
+```
+
+<a id="position" name="position"></a>
+
+#### position
+
+```ts
+position: number;
 ```
 
 <a id="time" name="time"></a>
@@ -73,4 +82,4 @@ time: number;
 
 #### Defined in
 
-[guild/Player.ts:104](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L104)
+[guild/Player.ts:104](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L104)

@@ -2,7 +2,7 @@
 editUrl: false
 next: false
 prev: false
-title: "NodeStats"
+title: "Stats"
 ---
 
 ## Properties
@@ -45,7 +45,7 @@ systemLoad: number;
 
 #### Defined in
 
-[node/Node.ts:23](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L23)
+[node/Node.ts:31](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L31)
 
 ***
 
@@ -87,7 +87,7 @@ sent: number;
 
 #### Defined in
 
-[node/Node.ts:18](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L18)
+[node/Node.ts:26](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L26)
 
 ***
 
@@ -138,7 +138,21 @@ used: number;
 
 #### Defined in
 
-[node/Node.ts:12](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L12)
+[node/Node.ts:20](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L20)
+
+***
+
+<a id="op" name="op"></a>
+
+### op
+
+```ts
+op: STATS;
+```
+
+#### Defined in
+
+[node/Node.ts:17](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L17)
 
 ***
 
@@ -152,7 +166,7 @@ players: number;
 
 #### Defined in
 
-[node/Node.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L10)
+[node/Node.ts:18](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L18)
 
 ***
 
@@ -166,7 +180,7 @@ playingPlayers: number;
 
 #### Defined in
 
-[node/Node.ts:11](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L11)
+[node/Node.ts:19](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L19)
 
 ***
 
@@ -180,4 +194,4 @@ uptime: number;
 
 #### Defined in
 
-[node/Node.ts:28](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L28)
+[node/Node.ts:36](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L36)

@@ -11,4 +11,4 @@ const AllowedPackets: string[];
 
 ## Defined in
 
-[connectors/Connector.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L10)
+[connectors/Connector.ts:10](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L10)

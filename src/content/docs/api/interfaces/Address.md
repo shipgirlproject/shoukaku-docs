@@ -17,7 +17,7 @@ address: string;
 
 #### Defined in
 
-[node/Rest.ts:78](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L78)
+[node/Rest.ts:78](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L78)
 
 ***
 
@@ -31,7 +31,7 @@ failingTime: string;
 
 #### Defined in
 
-[node/Rest.ts:80](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L80)
+[node/Rest.ts:80](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L80)
 
 ***
 
@@ -45,4 +45,4 @@ failingTimestamp: number;
 
 #### Defined in
 
-[node/Rest.ts:79](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L79)
+[node/Rest.ts:79](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L79)

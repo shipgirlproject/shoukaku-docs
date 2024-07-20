@@ -25,4 +25,4 @@ A promise that resolves in x seconds
 
 ## Defined in
 
-[Utils.ts:30](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Utils.ts#L30)
+[Utils.ts:30](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Utils.ts#L30)

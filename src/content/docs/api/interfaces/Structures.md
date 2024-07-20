@@ -19,7 +19,7 @@ A custom structure that extends the Player class
 
 #### Defined in
 
-[Shoukaku.ts:18](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L18)
+[Shoukaku.ts:18](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L18)
 
 ***
 
@@ -35,4 +35,4 @@ A custom structure that extends the Rest class
 
 #### Defined in
 
-[Shoukaku.ts:14](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L14)
+[Shoukaku.ts:14](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L14)

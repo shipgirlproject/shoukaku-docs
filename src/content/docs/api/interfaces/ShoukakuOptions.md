@@ -19,7 +19,7 @@ Whether to move players to a different Lavalink node when a node disconnects
 
 #### Defined in
 
-[Shoukaku.ts:72](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L72)
+[Shoukaku.ts:72](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L72)
 
 ***
 
@@ -46,7 +46,7 @@ Node Resolver to use if you want to customize it
 
 #### Defined in
 
-[Shoukaku.ts:88](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L88)
+[Shoukaku.ts:88](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L88)
 
 ***
 
@@ -62,7 +62,7 @@ Timeout before trying to reconnect
 
 #### Defined in
 
-[Shoukaku.ts:64](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L64)
+[Shoukaku.ts:64](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L64)
 
 ***
 
@@ -78,7 +78,7 @@ Number of times to try and reconnect to Lavalink before giving up
 
 #### Defined in
 
-[Shoukaku.ts:60](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L60)
+[Shoukaku.ts:60](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L60)
 
 ***
 
@@ -94,7 +94,7 @@ Time to wait for a response from the Lavalink REST API before giving up
 
 #### Defined in
 
-[Shoukaku.ts:68](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L68)
+[Shoukaku.ts:68](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L68)
 
 ***
 
@@ -110,7 +110,7 @@ Whether to resume a connection on disconnect to Lavalink (Server Side) (Note: DO
 
 #### Defined in
 
-[Shoukaku.ts:48](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L48)
+[Shoukaku.ts:48](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L48)
 
 ***
 
@@ -126,7 +126,7 @@ Whether to resume the players by doing it in the library side (Client Side) (Not
 
 #### Defined in
 
-[Shoukaku.ts:56](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L56)
+[Shoukaku.ts:56](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L56)
 
 ***
 
@@ -142,7 +142,7 @@ Time to wait before lavalink starts to destroy the players of the disconnected c
 
 #### Defined in
 
-[Shoukaku.ts:52](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L52)
+[Shoukaku.ts:52](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L52)
 
 ***
 
@@ -158,7 +158,7 @@ Custom structures for shoukaku to use
 
 #### Defined in
 
-[Shoukaku.ts:80](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L80)
+[Shoukaku.ts:80](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L80)
 
 ***
 
@@ -174,7 +174,7 @@ User Agent to use when making requests to Lavalink
 
 #### Defined in
 
-[Shoukaku.ts:76](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L76)
+[Shoukaku.ts:76](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L76)
 
 ***
 
@@ -190,4 +190,4 @@ Timeout before abort connection
 
 #### Defined in
 
-[Shoukaku.ts:84](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L84)
+[Shoukaku.ts:84](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L84)

@@ -38,7 +38,7 @@ new Connection(manager: Shoukaku, options: VoiceChannelOptions): Connection
 
 #### Defined in
 
-[guild/Connection.ts:86](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L86)
+[guild/Connection.ts:86](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L86)
 
 ## Properties
 
@@ -54,7 +54,7 @@ VoiceChannelId of the connection that is being managed by this instance
 
 #### Defined in
 
-[guild/Connection.ts:39](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L39)
+[guild/Connection.ts:39](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L39)
 
 ***
 
@@ -70,7 +70,7 @@ Deafen status in connected voice channel
 
 #### Defined in
 
-[guild/Connection.ts:52](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L52)
+[guild/Connection.ts:52](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L52)
 
 ***
 
@@ -86,7 +86,7 @@ GuildId of the connection that is being managed by this instance
 
 #### Defined in
 
-[guild/Connection.ts:35](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L35)
+[guild/Connection.ts:35](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L35)
 
 ***
 
@@ -102,7 +102,7 @@ Id of the voice channel where this instance was connected before the current cha
 
 #### Defined in
 
-[guild/Connection.ts:56](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L56)
+[guild/Connection.ts:56](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L56)
 
 ***
 
@@ -118,7 +118,7 @@ Last region of the connected voice channel
 
 #### Defined in
 
-[guild/Connection.ts:68](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L68)
+[guild/Connection.ts:68](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L68)
 
 ***
 
@@ -134,7 +134,7 @@ The manager where this connection is on
 
 #### Defined in
 
-[guild/Connection.ts:31](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L31)
+[guild/Connection.ts:31](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L31)
 
 ***
 
@@ -150,7 +150,7 @@ Mute status in connected voice channel
 
 #### Defined in
 
-[guild/Connection.ts:48](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L48)
+[guild/Connection.ts:48](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L48)
 
 ***
 
@@ -166,7 +166,7 @@ Region of connected voice channel
 
 #### Defined in
 
-[guild/Connection.ts:64](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L64)
+[guild/Connection.ts:64](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L64)
 
 ***
 
@@ -182,7 +182,7 @@ Cached serverUpdate event from Lavalink
 
 #### Defined in
 
-[guild/Connection.ts:72](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L72)
+[guild/Connection.ts:72](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L72)
 
 ***
 
@@ -198,7 +198,7 @@ Id of the currently active voice channel connection
 
 #### Defined in
 
-[guild/Connection.ts:60](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L60)
+[guild/Connection.ts:60](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L60)
 
 ***
 
@@ -214,7 +214,7 @@ ShardId where this connection sends data on
 
 #### Defined in
 
-[guild/Connection.ts:44](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L44)
+[guild/Connection.ts:44](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L44)
 
 ***
 
@@ -230,7 +230,7 @@ Connection state
 
 #### Defined in
 
-[guild/Connection.ts:76](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L76)
+[guild/Connection.ts:76](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L76)
 
 ## Methods
 
@@ -262,7 +262,7 @@ false
 
 #### Defined in
 
-[guild/Connection.ts:107](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L107)
+[guild/Connection.ts:107](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L107)
 
 ***
 
@@ -294,4 +294,4 @@ false
 
 #### Defined in
 
-[guild/Connection.ts:117](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Connection.ts#L117)
+[guild/Connection.ts:117](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L117)

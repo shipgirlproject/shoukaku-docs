@@ -18,6 +18,7 @@ title: "shoukaku"
 | Enumeration | Description |
 | ------ | ------ |
 | [LoadType](/api/enumerations/loadtype/) | - |
+| [PlayerEventType](/api/enumerations/playereventtype/) | - |
 
 ## Classes
 
@@ -50,13 +51,13 @@ title: "shoukaku"
 | [LavalinkPlayerVoiceOptions](/api/interfaces/lavalinkplayervoiceoptions/) | - |
 | [LowPassSettings](/api/interfaces/lowpasssettings/) | - |
 | [NodeOption](/api/interfaces/nodeoption/) | - |
-| [NodeStats](/api/interfaces/nodestats/) | - |
 | [NonResumableHeaders](/api/interfaces/nonresumableheaders/) | - |
 | [PlayerEvent](/api/interfaces/playerevent/) | - |
 | [PlayerEvents](/api/interfaces/playerevents/) | - |
 | [PlayerUpdate](/api/interfaces/playerupdate/) | - |
 | [Playlist](/api/interfaces/playlist/) | - |
 | [PlaylistResult](/api/interfaces/playlistresult/) | - |
+| [Ready](/api/interfaces/ready/) | - |
 | [ResumableHeaders](/api/interfaces/resumableheaders/) | - |
 | [RotationSettings](/api/interfaces/rotationsettings/) | - |
 | [RoutePlanner](/api/interfaces/routeplanner/) | - |
@@ -66,6 +67,7 @@ title: "shoukaku"
 | [ShoukakuEvents](/api/interfaces/shoukakuevents/) | - |
 | [ShoukakuOptions](/api/interfaces/shoukakuoptions/) | - |
 | [StateUpdatePartial](/api/interfaces/stateupdatepartial/) | Represents the partial payload from a stateUpdate event |
+| [Stats](/api/interfaces/stats/) | - |
 | [Structures](/api/interfaces/structures/) | - |
 | [TimescaleSettings](/api/interfaces/timescalesettings/) | - |
 | [Track](/api/interfaces/track/) | - |
@@ -86,8 +88,10 @@ title: "shoukaku"
 | ------ | ------ |
 | [LavalinkResponse](/api/type-aliases/lavalinkresponse/) | - |
 | [NodeInfo](/api/type-aliases/nodeinfo/) | - |
+| [NodeInfoGit](/api/type-aliases/nodeinfogit/) | - |
+| [NodeInfoPlugin](/api/type-aliases/nodeinfoplugin/) | - |
+| [NodeInfoVersion](/api/type-aliases/nodeinfoversion/) | - |
 | [PlayOptions](/api/type-aliases/playoptions/) | - |
-| [PlayerEventType](/api/type-aliases/playereventtype/) | - |
 | [ResumeOptions](/api/type-aliases/resumeoptions/) | - |
 | [Severity](/api/type-aliases/severity/) | - |
 | [TrackEndReason](/api/type-aliases/trackendreason/) | - |

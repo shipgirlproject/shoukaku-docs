@@ -21,7 +21,7 @@ Authorization: string;
 
 #### Defined in
 
-[node/Node.ts:66](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L66)
+[node/Node.ts:74](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L74)
 
 ***
 
@@ -35,7 +35,7 @@ Client-Name: string;
 
 #### Defined in
 
-[node/Node.ts:64](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L64)
+[node/Node.ts:72](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L72)
 
 ***
 
@@ -49,7 +49,7 @@ Session-Id: string;
 
 #### Defined in
 
-[node/Node.ts:68](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L68)
+[node/Node.ts:76](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L76)
 
 ***
 
@@ -63,7 +63,7 @@ User-Agent: string;
 
 #### Defined in
 
-[node/Node.ts:65](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L65)
+[node/Node.ts:73](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L73)
 
 ***
 
@@ -77,4 +77,4 @@ User-Id: string;
 
 #### Defined in
 
-[node/Node.ts:67](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Node.ts#L67)
+[node/Node.ts:75](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Node.ts#L75)

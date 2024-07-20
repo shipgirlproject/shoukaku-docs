@@ -35,7 +35,7 @@ new Seyfert(client: any): Seyfert
 
 #### Defined in
 
-[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L15)
+[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L15)
 
 ## Methods
 
@@ -57,7 +57,7 @@ getId(): string
 
 #### Defined in
 
-[connectors/libs/Seyfert.ts:10](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/libs/Seyfert.ts#L10)
+[connectors/libs/Seyfert.ts:10](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/libs/Seyfert.ts#L10)
 
 ***
 
@@ -85,7 +85,7 @@ listen(nodes: NodeOption[]): void
 
 #### Defined in
 
-[connectors/libs/Seyfert.ts:14](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/libs/Seyfert.ts#L14)
+[connectors/libs/Seyfert.ts:14](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/libs/Seyfert.ts#L14)
 
 ***
 
@@ -118,7 +118,7 @@ sendPacket(
 
 #### Defined in
 
-[connectors/libs/Seyfert.ts:6](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/libs/Seyfert.ts#L6)
+[connectors/libs/Seyfert.ts:6](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/libs/Seyfert.ts#L6)
 
 ***
 
@@ -146,4 +146,4 @@ set(manager: Shoukaku): Connector
 
 #### Defined in
 
-[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/connectors/Connector.ts#L20)
+[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L20)

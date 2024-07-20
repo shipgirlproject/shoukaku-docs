@@ -19,7 +19,7 @@ Emitted when the current websocket connection is closed
 
 #### Defined in
 
-[guild/Player.ts:140](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L140)
+[guild/Player.ts:141](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L141)
 
 ***
 
@@ -35,7 +35,7 @@ Emitted when the current playing track ends
 
 #### Defined in
 
-[guild/Player.ts:130](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L130)
+[guild/Player.ts:131](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L131)
 
 ***
 
@@ -51,7 +51,7 @@ Emitted when there is an error caused by the current playing track
 
 #### Defined in
 
-[guild/Player.ts:150](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L150)
+[guild/Player.ts:151](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L151)
 
 ***
 
@@ -67,7 +67,7 @@ Emitted when the library manages to resume the player
 
 #### Defined in
 
-[guild/Player.ts:155](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L155)
+[guild/Player.ts:156](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L156)
 
 ***
 
@@ -83,7 +83,7 @@ Emitted when a new track starts
 
 #### Defined in
 
-[guild/Player.ts:145](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L145)
+[guild/Player.ts:146](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L146)
 
 ***
 
@@ -99,7 +99,7 @@ Emitted when the current playing track gets stuck due to an error
 
 #### Defined in
 
-[guild/Player.ts:135](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L135)
+[guild/Player.ts:136](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L136)
 
 ***
 
@@ -115,4 +115,4 @@ Emitted when a playerUpdate even is received from Lavalink
 
 #### Defined in
 
-[guild/Player.ts:160](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/guild/Player.ts#L160)
+[guild/Player.ts:161](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L161)

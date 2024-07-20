@@ -17,7 +17,7 @@ filters: FilterOptions;
 
 #### Defined in
 
-[node/Rest.ts:115](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L115)
+[node/Rest.ts:115](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L115)
 
 ***
 
@@ -31,7 +31,7 @@ guildId: string;
 
 #### Defined in
 
-[node/Rest.ts:110](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L110)
+[node/Rest.ts:110](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L110)
 
 ***
 
@@ -45,7 +45,7 @@ paused: boolean;
 
 #### Defined in
 
-[node/Rest.ts:113](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L113)
+[node/Rest.ts:113](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L113)
 
 ***
 
@@ -59,7 +59,7 @@ optional track: Track;
 
 #### Defined in
 
-[node/Rest.ts:111](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L111)
+[node/Rest.ts:111](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L111)
 
 ***
 
@@ -73,7 +73,7 @@ voice: LavalinkPlayerVoice;
 
 #### Defined in
 
-[node/Rest.ts:114](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L114)
+[node/Rest.ts:114](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L114)
 
 ***
 
@@ -87,4 +87,4 @@ volume: number;
 
 #### Defined in
 
-[node/Rest.ts:112](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/node/Rest.ts#L112)
+[node/Rest.ts:112](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L112)

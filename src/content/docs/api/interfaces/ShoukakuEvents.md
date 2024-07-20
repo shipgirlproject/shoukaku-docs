@@ -19,7 +19,7 @@ Emitted when a websocket connection to Lavalink closes
 
 #### Defined in
 
-[Shoukaku.ts:124](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L124)
+[Shoukaku.ts:124](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L124)
 
 ***
 
@@ -35,7 +35,7 @@ Emitted when data useful for debugging is produced
 
 #### Defined in
 
-[Shoukaku.ts:109](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L109)
+[Shoukaku.ts:109](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L109)
 
 ***
 
@@ -51,7 +51,7 @@ Emitted when a websocket connection to Lavalink disconnects
 
 #### Defined in
 
-[Shoukaku.ts:129](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L129)
+[Shoukaku.ts:129](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L129)
 
 ***
 
@@ -67,7 +67,7 @@ Emitted when an error occurs
 
 #### Defined in
 
-[Shoukaku.ts:114](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L114)
+[Shoukaku.ts:114](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L114)
 
 ***
 
@@ -83,7 +83,7 @@ Emitted when a raw message is received from Lavalink
 
 #### Defined in
 
-[Shoukaku.ts:134](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L134)
+[Shoukaku.ts:134](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L134)
 
 ***
 
@@ -99,7 +99,7 @@ Emitted when Shoukaku is ready to receive operations
 
 #### Defined in
 
-[Shoukaku.ts:119](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L119)
+[Shoukaku.ts:119](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L119)
 
 ***
 
@@ -115,4 +115,4 @@ Emitted when reconnect tries are occurring and how many tries are left
 
 #### Defined in
 
-[Shoukaku.ts:104](https://github.com/shipgirlproject/shoukaku/blob/761f40f7c0b54473070fa1c40602d1504a8bf167/src/Shoukaku.ts#L104)
+[Shoukaku.ts:104](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L104)
