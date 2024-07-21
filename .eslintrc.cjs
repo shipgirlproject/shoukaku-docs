@@ -19,6 +19,14 @@ module.exports = {
                 // override/add rules settings here, such as:
                 // "astro/no-set-html-directive": "error"
             }
-        }
+        },
+        {
+            files: ["*.mdx"],
+            extends: ["plugin:mdx/recommended"],
+            settings: {
+                "mdx/code-blocks": true,
+                "mdx/language-mapper": {}
+            }
+        },
     ]
 }

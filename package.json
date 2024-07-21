@@ -10,22 +10,24 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.7.0",
-    "@astrojs/starlight": "^0.24.5",
-    "astro": "^4.10.2",
-    "sharp": "^0.32.5",
+    "@astrojs/check": "^0.8.2",
+    "@astrojs/starlight": "^0.25.1",
+    "astro": "^4.12.2",
+    "astro-og-canvas": "^0.5.3",
+    "sharp": "^0.33.4",
     "starlight-package-managers": "^0.6.0",
-    "starlight-typedoc": "^0.13.0",
+    "starlight-typedoc": "^0.13.1",
     "starlight-versions": "^0.1.0",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^7.14.1",
-    "eslint": "^8.56.0",
-    "eslint-plugin-astro": "^1.2.2",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^9.7.0",
+    "eslint-plugin-astro": "^1.2.3",
     "eslint-plugin-jsx-a11y": "^6.9.0",
-    "prettier": "^3.3.2",
+    "eslint-plugin-mdx": "^3.1.5",
+    "prettier": "^3.3.3",
     "prettier-config-standard": "^7.0.0",
-    "prettier-plugin-astro": "^0.14.0"
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
