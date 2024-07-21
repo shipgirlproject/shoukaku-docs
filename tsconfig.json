@@ -1,5 +1,5 @@
 {
-  "include": ["./src/*", ".eslintrc.cjs", "./shoukaku/*", "./.astro/*", "env.d.ts"],
+  "include": ["./src/*", ".eslintrc.cjs", "./shoukaku/*", "./.astro/*"],
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "verbatimModuleSyntax": false,
