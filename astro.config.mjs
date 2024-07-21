@@ -8,6 +8,9 @@ export default defineConfig({
 	site: 'https://guide.shoukaku.shipgirl.moe',
 	integrations: [
 		starlight({
+			components: {
+				Head: './src/components/Head.astro',
+			},
 			plugins: [
 				// Generate the documentation.
 				starlightTypeDoc({
