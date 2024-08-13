@@ -19,7 +19,7 @@ optional channel_id: string;
 
 #### Defined in
 
-[guild/Connection.ts:9](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L9)
+[shoukaku/src/guild/Connection.ts:9](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Connection.ts#L9)
 
 ***
 
@@ -33,7 +33,7 @@ self_deaf: boolean;
 
 #### Defined in
 
-[guild/Connection.ts:11](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L11)
+[shoukaku/src/guild/Connection.ts:11](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Connection.ts#L11)
 
 ***
 
@@ -47,7 +47,7 @@ self_mute: boolean;
 
 #### Defined in
 
-[guild/Connection.ts:12](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L12)
+[shoukaku/src/guild/Connection.ts:12](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Connection.ts#L12)
 
 ***
 
@@ -61,4 +61,4 @@ optional session_id: string;
 
 #### Defined in
 
-[guild/Connection.ts:10](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Connection.ts#L10)
+[shoukaku/src/guild/Connection.ts:10](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Connection.ts#L10)

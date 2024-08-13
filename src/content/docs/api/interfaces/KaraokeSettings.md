@@ -17,7 +17,7 @@ optional filterBand: number;
 
 #### Defined in
 
-[guild/Player.ts:27](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L27)
+[shoukaku/src/guild/Player.ts:27](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L27)
 
 ***
 
@@ -31,7 +31,7 @@ optional filterWidth: number;
 
 #### Defined in
 
-[guild/Player.ts:28](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L28)
+[shoukaku/src/guild/Player.ts:28](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L28)
 
 ***
 
@@ -45,7 +45,7 @@ optional level: number;
 
 #### Defined in
 
-[guild/Player.ts:25](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L25)
+[shoukaku/src/guild/Player.ts:25](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L25)
 
 ***
 
@@ -59,4 +59,4 @@ optional monoLevel: number;
 
 #### Defined in
 
-[guild/Player.ts:26](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L26)
+[shoukaku/src/guild/Player.ts:26](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L26)

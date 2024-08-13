@@ -17,7 +17,7 @@ optional channelMix: null | ChannelMixSettings;
 
 #### Defined in
 
-[guild/Player.ts:122](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L122)
+[shoukaku/src/guild/Player.ts:122](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L122)
 
 ***
 
@@ -31,7 +31,7 @@ optional distortion: null | DistortionSettings;
 
 #### Defined in
 
-[guild/Player.ts:121](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L121)
+[shoukaku/src/guild/Player.ts:121](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L121)
 
 ***
 
@@ -45,7 +45,7 @@ optional equalizer: Band[];
 
 #### Defined in
 
-[guild/Player.ts:115](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L115)
+[shoukaku/src/guild/Player.ts:115](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L115)
 
 ***
 
@@ -59,7 +59,7 @@ optional karaoke: null | KaraokeSettings;
 
 #### Defined in
 
-[guild/Player.ts:116](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L116)
+[shoukaku/src/guild/Player.ts:116](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L116)
 
 ***
 
@@ -73,7 +73,7 @@ optional lowPass: null | LowPassSettings;
 
 #### Defined in
 
-[guild/Player.ts:123](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L123)
+[shoukaku/src/guild/Player.ts:123](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L123)
 
 ***
 
@@ -87,7 +87,7 @@ optional rotation: null | RotationSettings;
 
 #### Defined in
 
-[guild/Player.ts:120](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L120)
+[shoukaku/src/guild/Player.ts:120](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L120)
 
 ***
 
@@ -101,7 +101,7 @@ optional timescale: null | TimescaleSettings;
 
 #### Defined in
 
-[guild/Player.ts:117](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L117)
+[shoukaku/src/guild/Player.ts:117](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L117)
 
 ***
 
@@ -115,7 +115,7 @@ optional tremolo: null | FreqSettings;
 
 #### Defined in
 
-[guild/Player.ts:118](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L118)
+[shoukaku/src/guild/Player.ts:118](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L118)
 
 ***
 
@@ -129,7 +129,7 @@ optional vibrato: null | FreqSettings;
 
 #### Defined in
 
-[guild/Player.ts:119](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L119)
+[shoukaku/src/guild/Player.ts:119](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L119)
 
 ***
 
@@ -143,4 +143,4 @@ optional volume: number;
 
 #### Defined in
 
-[guild/Player.ts:114](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L114)
+[shoukaku/src/guild/Player.ts:114](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L114)

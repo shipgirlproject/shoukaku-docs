@@ -25,7 +25,7 @@ guildId: string;
 
 #### Defined in
 
-[guild/Player.ts:70](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L70)
+[shoukaku/src/guild/Player.ts:70](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L70)
 
 ***
 
@@ -43,7 +43,7 @@ op: EVENT;
 
 #### Defined in
 
-[guild/Player.ts:69](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L69)
+[shoukaku/src/guild/Player.ts:69](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L69)
 
 ***
 
@@ -57,7 +57,7 @@ reason: TrackEndReason;
 
 #### Defined in
 
-[guild/Player.ts:81](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L81)
+[shoukaku/src/guild/Player.ts:81](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L81)
 
 ***
 
@@ -71,7 +71,7 @@ track: Track;
 
 #### Defined in
 
-[guild/Player.ts:80](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L80)
+[shoukaku/src/guild/Player.ts:80](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L80)
 
 ***
 
@@ -85,4 +85,4 @@ type: TRACK_END_EVENT;
 
 #### Defined in
 
-[guild/Player.ts:79](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L79)
+[shoukaku/src/guild/Player.ts:79](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L79)

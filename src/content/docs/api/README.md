@@ -29,6 +29,7 @@ title: "shoukaku"
 | [Node](/api/classes/node/) | Represents a Lavalink node |
 | [Player](/api/classes/player/) | Wrapper object around Lavalink |
 | [Rest](/api/classes/rest/) | Wrapper around Lavalink REST API |
+| [RestError](/api/classes/resterror/) | - |
 | [Shoukaku](/api/classes/shoukaku/) | Main Shoukaku class |
 
 ## Interfaces
@@ -48,12 +49,13 @@ title: "shoukaku"
 | [KaraokeSettings](/api/interfaces/karaokesettings/) | - |
 | [LavalinkPlayer](/api/interfaces/lavalinkplayer/) | - |
 | [LavalinkPlayerVoice](/api/interfaces/lavalinkplayervoice/) | - |
-| [LavalinkPlayerVoiceOptions](/api/interfaces/lavalinkplayervoiceoptions/) | - |
 | [LowPassSettings](/api/interfaces/lowpasssettings/) | - |
+| [NodeInfo](/api/interfaces/nodeinfo/) | - |
+| [NodeInfoGit](/api/interfaces/nodeinfogit/) | - |
+| [NodeInfoPlugin](/api/interfaces/nodeinfoplugin/) | - |
+| [NodeInfoVersion](/api/interfaces/nodeinfoversion/) | - |
 | [NodeOption](/api/interfaces/nodeoption/) | - |
-| [NonResumableHeaders](/api/interfaces/nonresumableheaders/) | - |
 | [PlayerEvent](/api/interfaces/playerevent/) | - |
-| [PlayerEvents](/api/interfaces/playerevents/) | - |
 | [PlayerUpdate](/api/interfaces/playerupdate/) | - |
 | [Playlist](/api/interfaces/playlist/) | - |
 | [PlaylistResult](/api/interfaces/playlistresult/) | - |
@@ -64,7 +66,6 @@ title: "shoukaku"
 | [SearchResult](/api/interfaces/searchresult/) | - |
 | [ServerUpdate](/api/interfaces/serverupdate/) | Represents the payload from a serverUpdate event |
 | [SessionInfo](/api/interfaces/sessioninfo/) | - |
-| [ShoukakuEvents](/api/interfaces/shoukakuevents/) | - |
 | [ShoukakuOptions](/api/interfaces/shoukakuoptions/) | - |
 | [StateUpdatePartial](/api/interfaces/stateupdatepartial/) | Represents the partial payload from a stateUpdate event |
 | [Stats](/api/interfaces/stats/) | - |
@@ -86,14 +87,15 @@ title: "shoukaku"
 
 | Type alias | Description |
 | ------ | ------ |
+| [LavalinkPlayerVoiceOptions](/api/type-aliases/lavalinkplayervoiceoptions/) | - |
 | [LavalinkResponse](/api/type-aliases/lavalinkresponse/) | - |
-| [NodeInfo](/api/type-aliases/nodeinfo/) | - |
-| [NodeInfoGit](/api/type-aliases/nodeinfogit/) | - |
-| [NodeInfoPlugin](/api/type-aliases/nodeinfoplugin/) | - |
-| [NodeInfoVersion](/api/type-aliases/nodeinfoversion/) | - |
+| [NodeEvents](/api/type-aliases/nodeevents/) | - |
+| [NonResumableHeaders](/api/type-aliases/nonresumableheaders/) | - |
 | [PlayOptions](/api/type-aliases/playoptions/) | - |
+| [PlayerEvents](/api/type-aliases/playerevents/) | - |
 | [ResumeOptions](/api/type-aliases/resumeoptions/) | - |
 | [Severity](/api/type-aliases/severity/) | - |
+| [ShoukakuEvents](/api/type-aliases/shoukakuevents/) | - |
 | [TrackEndReason](/api/type-aliases/trackendreason/) | - |
 
 ## Variables

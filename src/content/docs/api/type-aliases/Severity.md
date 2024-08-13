@@ -11,4 +11,4 @@ type Severity: "common" | "suspicious" | "fault";
 
 ## Defined in
 
-[node/Rest.ts:6](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L6)
+[shoukaku/src/node/Rest.ts:6](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L6)

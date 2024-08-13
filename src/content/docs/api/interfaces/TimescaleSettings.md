@@ -17,7 +17,7 @@ optional pitch: number;
 
 #### Defined in
 
-[guild/Player.ts:33](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L33)
+[shoukaku/src/guild/Player.ts:33](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L33)
 
 ***
 
@@ -31,7 +31,7 @@ optional rate: number;
 
 #### Defined in
 
-[guild/Player.ts:34](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L34)
+[shoukaku/src/guild/Player.ts:34](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L34)
 
 ***
 
@@ -45,4 +45,4 @@ optional speed: number;
 
 #### Defined in
 
-[guild/Player.ts:32](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L32)
+[shoukaku/src/guild/Player.ts:32](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L32)

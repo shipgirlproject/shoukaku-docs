@@ -25,7 +25,7 @@ guildId: string;
 
 #### Defined in
 
-[guild/Player.ts:70](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L70)
+[shoukaku/src/guild/Player.ts:70](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L70)
 
 ***
 
@@ -43,7 +43,7 @@ op: EVENT;
 
 #### Defined in
 
-[guild/Player.ts:69](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L69)
+[shoukaku/src/guild/Player.ts:69](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L69)
 
 ***
 
@@ -57,7 +57,7 @@ thresholdMs: number;
 
 #### Defined in
 
-[guild/Player.ts:87](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L87)
+[shoukaku/src/guild/Player.ts:87](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L87)
 
 ***
 
@@ -71,7 +71,7 @@ track: Track;
 
 #### Defined in
 
-[guild/Player.ts:86](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L86)
+[shoukaku/src/guild/Player.ts:86](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L86)
 
 ***
 
@@ -85,4 +85,4 @@ type: TRACK_STUCK_EVENT;
 
 #### Defined in
 
-[guild/Player.ts:85](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L85)
+[shoukaku/src/guild/Player.ts:85](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L85)

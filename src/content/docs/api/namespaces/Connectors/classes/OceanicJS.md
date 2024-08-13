@@ -35,7 +35,7 @@ new OceanicJS(client: any): OceanicJS
 
 #### Defined in
 
-[connectors/Connector.ts:15](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L15)
+[shoukaku/src/connectors/Connector.ts:17](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/connectors/Connector.ts#L17)
 
 ## Methods
 
@@ -57,7 +57,7 @@ getId(): string
 
 #### Defined in
 
-[connectors/libs/OceanicJS.ts:10](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/libs/OceanicJS.ts#L10)
+[shoukaku/src/connectors/libs/OceanicJS.ts:11](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/connectors/libs/OceanicJS.ts#L11)
 
 ***
 
@@ -85,7 +85,7 @@ listen(nodes: NodeOption[]): void
 
 #### Defined in
 
-[connectors/libs/OceanicJS.ts:14](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/libs/OceanicJS.ts#L14)
+[shoukaku/src/connectors/libs/OceanicJS.ts:15](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/connectors/libs/OceanicJS.ts#L15)
 
 ***
 
@@ -118,7 +118,7 @@ sendPacket(
 
 #### Defined in
 
-[connectors/libs/OceanicJS.ts:6](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/libs/OceanicJS.ts#L6)
+[shoukaku/src/connectors/libs/OceanicJS.ts:7](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/connectors/libs/OceanicJS.ts#L7)
 
 ***
 
@@ -146,4 +146,4 @@ set(manager: Shoukaku): Connector
 
 #### Defined in
 
-[connectors/Connector.ts:20](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/connectors/Connector.ts#L20)
+[shoukaku/src/connectors/Connector.ts:23](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/connectors/Connector.ts#L23)

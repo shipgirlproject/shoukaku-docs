@@ -30,7 +30,7 @@ new Rest(node: Node, options: NodeOption): Rest
 
 #### Defined in
 
-[node/Rest.ts:192](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L192)
+[shoukaku/src/node/Rest.ts:192](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L192)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Promise that resolves to a track
 
 #### Defined in
 
-[node/Rest.ts:221](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L221)
+[shoukaku/src/node/Rest.ts:221](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L221)
 
 ***
 
@@ -84,7 +84,7 @@ Deletes a Lavalink player
 
 #### Defined in
 
-[node/Rest.ts:275](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L275)
+[shoukaku/src/node/Rest.ts:275](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L275)
 
 ***
 
@@ -100,11 +100,11 @@ Get Lavalink info
 
 #### Returns
 
-`Promise`\<`undefined` \| [`NodeInfo`](/api/type-aliases/nodeinfo/)\>
+`Promise`\<`undefined` \| [`NodeInfo`](/api/interfaces/nodeinfo/)\>
 
 #### Defined in
 
-[node/Rest.ts:344](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L344)
+[shoukaku/src/node/Rest.ts:344](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L344)
 
 ***
 
@@ -132,7 +132,7 @@ Promise that resolves to a Lavalink player
 
 #### Defined in
 
-[node/Rest.ts:245](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L245)
+[shoukaku/src/node/Rest.ts:245](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L245)
 
 ***
 
@@ -154,7 +154,7 @@ Promise that resolves to an array of Lavalink players
 
 #### Defined in
 
-[node/Rest.ts:233](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L233)
+[shoukaku/src/node/Rest.ts:233](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L233)
 
 ***
 
@@ -176,7 +176,7 @@ Promise that resolves to a routeplanner response
 
 #### Defined in
 
-[node/Rest.ts:317](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L317)
+[shoukaku/src/node/Rest.ts:317](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L317)
 
 ***
 
@@ -204,7 +204,7 @@ A promise that resolves to a Lavalink response
 
 #### Defined in
 
-[node/Rest.ts:208](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L208)
+[shoukaku/src/node/Rest.ts:208](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L208)
 
 ***
 
@@ -226,7 +226,7 @@ Promise that resolves to a node stats response
 
 #### Defined in
 
-[node/Rest.ts:305](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L305)
+[shoukaku/src/node/Rest.ts:305](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L305)
 
 ***
 
@@ -252,7 +252,7 @@ Release blacklisted IP address into pool of IPs
 
 #### Defined in
 
-[node/Rest.ts:329](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L329)
+[shoukaku/src/node/Rest.ts:329](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L329)
 
 ***
 
@@ -280,7 +280,7 @@ Promise that resolves to a Lavalink player
 
 #### Defined in
 
-[node/Rest.ts:258](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L258)
+[shoukaku/src/node/Rest.ts:258](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L258)
 
 ***
 
@@ -309,4 +309,4 @@ Promise that resolves to a Lavalink player
 
 #### Defined in
 
-[node/Rest.ts:289](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/node/Rest.ts#L289)
+[shoukaku/src/node/Rest.ts:289](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L289)

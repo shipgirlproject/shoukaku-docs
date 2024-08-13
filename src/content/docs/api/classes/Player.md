@@ -9,7 +9,7 @@ Wrapper object around Lavalink
 
 ## Extends
 
-- `EventEmitter`
+- [`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/)\<[`PlayerEvents`](/api/type-aliases/playerevents/)\>
 
 ## Constructors
 
@@ -32,9 +32,13 @@ new Player(guildId: string, node: Node): Player
 
 [`Player`](/api/classes/player/)
 
+#### Overrides
+
+`TypedEventEmitter<PlayerEvents>.constructor`
+
 #### Defined in
 
-[guild/Player.ts:212](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L212)
+[shoukaku/src/guild/Player.ts:207](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L207)
 
 ## Properties
 
@@ -50,7 +54,7 @@ Filters on current track
 
 #### Defined in
 
-[guild/Player.ts:207](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L207)
+[shoukaku/src/guild/Player.ts:202](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L202)
 
 ***
 
@@ -66,7 +70,7 @@ GuildId of this player
 
 #### Defined in
 
-[guild/Player.ts:179](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L179)
+[shoukaku/src/guild/Player.ts:174](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L174)
 
 ***
 
@@ -82,7 +86,7 @@ Lavalink node this player is connected to
 
 #### Defined in
 
-[guild/Player.ts:183](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L183)
+[shoukaku/src/guild/Player.ts:178](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L178)
 
 ***
 
@@ -98,7 +102,7 @@ Pause status in current player
 
 #### Defined in
 
-[guild/Player.ts:195](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L195)
+[shoukaku/src/guild/Player.ts:190](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L190)
 
 ***
 
@@ -114,7 +118,7 @@ Ping represents the number of milliseconds between heartbeat and ack. Could be `
 
 #### Defined in
 
-[guild/Player.ts:199](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L199)
+[shoukaku/src/guild/Player.ts:194](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L194)
 
 ***
 
@@ -130,7 +134,7 @@ Position in ms of current track
 
 #### Defined in
 
-[guild/Player.ts:203](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L203)
+[shoukaku/src/guild/Player.ts:198](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L198)
 
 ***
 
@@ -146,7 +150,7 @@ Base64 encoded data of the current track
 
 #### Defined in
 
-[guild/Player.ts:187](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L187)
+[shoukaku/src/guild/Player.ts:182](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L182)
 
 ***
 
@@ -162,7 +166,7 @@ Global volume of the player
 
 #### Defined in
 
-[guild/Player.ts:191](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L191)
+[shoukaku/src/guild/Player.ts:186](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L186)
 
 ## Accessors
 
@@ -180,7 +184,7 @@ get data(): UpdatePlayerInfo
 
 #### Defined in
 
-[guild/Player.ts:224](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L224)
+[shoukaku/src/guild/Player.ts:219](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L219)
 
 ## Methods
 
@@ -200,7 +204,7 @@ Clear all filters applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:415](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L415)
+[shoukaku/src/guild/Player.ts:410](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L410)
 
 ***
 
@@ -220,7 +224,7 @@ Destroys the player in remote lavalink side
 
 #### Defined in
 
-[guild/Player.ts:279](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L279)
+[shoukaku/src/guild/Player.ts:274](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L274)
 
 ***
 
@@ -229,23 +233,75 @@ Destroys the player in remote lavalink side
 ### emit()
 
 ```ts
-emit(event: string | symbol, ...args: unknown[]): boolean
+emit<K>(eventName: K, ...args: PlayerEvents[Extract<K, string>]): boolean
 ```
+
+Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
+to each.
+
+Returns `true` if the event had listeners, `false` otherwise.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEmitter = new EventEmitter();
+
+// First listener
+myEmitter.on('event', function firstListener() {
+  console.log('Helloooo! first listener');
+});
+// Second listener
+myEmitter.on('event', function secondListener(arg1, arg2) {
+  console.log(`event with parameters ${arg1}, ${arg2} in second listener`);
+});
+// Third listener
+myEmitter.on('event', function thirdListener(...args) {
+  const parameters = args.join(', ');
+  console.log(`event with parameters ${parameters} in third listener`);
+});
+
+console.log(myEmitter.listeners('event'));
+
+myEmitter.emit('event', 1, 2, 3, 4, 5);
+
+// Prints:
+// [
+//   [Function: firstListener],
+//   [Function: secondListener],
+//   [Function: thirdListener]
+// ]
+// Helloooo! first listener
+// event with parameters 1, 2 in second listener
+// event with parameters 1, 2, 3, 4, 5 in third listener
+```
+
+#### Type Parameters
+
+| Type Parameter |
+| ------ |
+| `K` *extends* `symbol` \| keyof PlayerEvents |
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | `string` \| `symbol` |
-| ...`args` | `unknown`[] |
+| `eventName` | `K` |
+| ...`args` | [`PlayerEvents`](/api/type-aliases/playerevents/)\[`Extract`\<`K`, `string`\>\] |
 
 #### Returns
 
 `boolean`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`emit`](/api/namespaces/utils/classes/typedeventemitter/#emit)
+
+#### Since
+
+v0.1.26
+
 #### Defined in
 
-[guild/Player.ts:168](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L168)
+[shoukaku/src/Utils.ts:21](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L21)
 
 ***
 
@@ -273,7 +329,7 @@ true if the player was moved, false if not
 
 #### Defined in
 
-[guild/Player.ts:250](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L250)
+[shoukaku/src/guild/Player.ts:245](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L245)
 
 ***
 
@@ -282,29 +338,39 @@ true if the player was moved, false if not
 ### off()
 
 ```ts
-off<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
+off<K>(eventName: K, listener: (...args: PlayerEvents[Extract<K, string>]) => void): this
 ```
+
+Alias for `emitter.removeListener()`.
 
 #### Type Parameters
 
 | Type Parameter |
 | ------ |
-| `K` *extends* keyof [`PlayerEvents`](/api/interfaces/playerevents/) |
+| `K` *extends* `symbol` \| keyof PlayerEvents |
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | `K` |
-| `listener` | (...`args`: [`PlayerEvents`](/api/interfaces/playerevents/)\[`K`\]) => `void` |
+| `eventName` | `K` |
+| `listener` | (...`args`: [`PlayerEvents`](/api/type-aliases/playerevents/)\[`Extract`\<`K`, `string`\>\]) => `void` |
 
 #### Returns
 
 `this`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`off`](/api/namespaces/utils/classes/typedeventemitter/#off)
+
+#### Since
+
+v10.0.0
+
 #### Defined in
 
-[guild/Player.ts:167](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L167)
+[shoukaku/src/Utils.ts:17](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L17)
 
 ***
 
@@ -313,29 +379,64 @@ off<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
 ### on()
 
 ```ts
-on<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
+on<K>(eventName: K, listener: (...args: PlayerEvents[Extract<K, string>]) => void): this
+```
+
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
 ```
 
 #### Type Parameters
 
 | Type Parameter |
 | ------ |
-| `K` *extends* keyof [`PlayerEvents`](/api/interfaces/playerevents/) |
+| `K` *extends* `symbol` \| keyof PlayerEvents |
 
 #### Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `K` |
-| `listener` | (...`args`: [`PlayerEvents`](/api/interfaces/playerevents/)\[`K`\]) => `void` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `eventName` | `K` | The name of the event. |
+| `listener` | (...`args`: [`PlayerEvents`](/api/type-aliases/playerevents/)\[`Extract`\<`K`, `string`\>\]) => `void` | The callback function |
 
 #### Returns
 
 `this`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`on`](/api/namespaces/utils/classes/typedeventemitter/#on)
+
+#### Since
+
+v0.1.101
+
 #### Defined in
 
-[guild/Player.ts:165](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L165)
+[shoukaku/src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L9)
 
 ***
 
@@ -361,7 +462,7 @@ Handle player update data
 
 #### Defined in
 
-[guild/Player.ts:516](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L516)
+[shoukaku/src/guild/Player.ts:511](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L511)
 
 ***
 
@@ -370,29 +471,62 @@ Handle player update data
 ### once()
 
 ```ts
-once<K>(event: K, listener: (...args: PlayerEvents[K]) => void): this
+once<K>(eventName: K, listener: (...args: PlayerEvents[Extract<K, string>]) => void): this
+```
+
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
 ```
 
 #### Type Parameters
 
 | Type Parameter |
 | ------ |
-| `K` *extends* keyof [`PlayerEvents`](/api/interfaces/playerevents/) |
+| `K` *extends* `symbol` \| keyof PlayerEvents |
 
 #### Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `K` |
-| `listener` | (...`args`: [`PlayerEvents`](/api/interfaces/playerevents/)\[`K`\]) => `void` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `eventName` | `K` | The name of the event. |
+| `listener` | (...`args`: [`PlayerEvents`](/api/type-aliases/playerevents/)\[`Extract`\<`K`, `string`\>\]) => `void` | The callback function |
 
 #### Returns
 
 `this`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`once`](/api/namespaces/utils/classes/typedeventemitter/#once)
+
+#### Since
+
+v0.3.0
+
 #### Defined in
 
-[guild/Player.ts:166](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L166)
+[shoukaku/src/Utils.ts:13](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L13)
 
 ***
 
@@ -419,7 +553,7 @@ Play a new track
 
 #### Defined in
 
-[guild/Player.ts:288](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L288)
+[shoukaku/src/guild/Player.ts:283](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L283)
 
 ***
 
@@ -446,7 +580,7 @@ Resumes the current track
 
 #### Defined in
 
-[guild/Player.ts:435](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L435)
+[shoukaku/src/guild/Player.ts:430](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L430)
 
 ***
 
@@ -472,7 +606,7 @@ Seek to a specific time in the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:311](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L311)
+[shoukaku/src/guild/Player.ts:306](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L306)
 
 ***
 
@@ -498,7 +632,7 @@ Change the channel mix settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:392](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L392)
+[shoukaku/src/guild/Player.ts:387](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L387)
 
 ***
 
@@ -526,7 +660,7 @@ The current player instance
 
 #### Defined in
 
-[guild/Player.ts:384](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L384)
+[shoukaku/src/guild/Player.ts:379](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L379)
 
 ***
 
@@ -552,7 +686,7 @@ Change the equalizer settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:335](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L335)
+[shoukaku/src/guild/Player.ts:330](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L330)
 
 ***
 
@@ -578,7 +712,7 @@ Sets the filter volume of the player
 
 #### Defined in
 
-[guild/Player.ts:327](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L327)
+[shoukaku/src/guild/Player.ts:322](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L322)
 
 ***
 
@@ -604,7 +738,7 @@ Change the all filter settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:408](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L408)
+[shoukaku/src/guild/Player.ts:403](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L403)
 
 ***
 
@@ -630,7 +764,7 @@ Sets the global volume of the player
 
 #### Defined in
 
-[guild/Player.ts:319](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L319)
+[shoukaku/src/guild/Player.ts:314](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L314)
 
 ***
 
@@ -656,7 +790,7 @@ Change the karaoke settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:343](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L343)
+[shoukaku/src/guild/Player.ts:338](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L338)
 
 ***
 
@@ -682,7 +816,7 @@ Change the low pass settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:400](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L400)
+[shoukaku/src/guild/Player.ts:395](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L395)
 
 ***
 
@@ -708,7 +842,7 @@ Pause or unpause the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:303](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L303)
+[shoukaku/src/guild/Player.ts:298](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L298)
 
 ***
 
@@ -734,7 +868,7 @@ Change the rotation settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:375](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L375)
+[shoukaku/src/guild/Player.ts:370](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L370)
 
 ***
 
@@ -760,7 +894,7 @@ Change the timescale settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:351](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L351)
+[shoukaku/src/guild/Player.ts:346](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L346)
 
 ***
 
@@ -786,7 +920,7 @@ Change the tremolo settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:359](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L359)
+[shoukaku/src/guild/Player.ts:354](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L354)
 
 ***
 
@@ -812,7 +946,7 @@ Change the vibrato settings applied to the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:367](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L367)
+[shoukaku/src/guild/Player.ts:362](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L362)
 
 ***
 
@@ -832,7 +966,7 @@ Stop the currently playing track
 
 #### Defined in
 
-[guild/Player.ts:295](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L295)
+[shoukaku/src/guild/Player.ts:290](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L290)
 
 ***
 
@@ -859,4 +993,4 @@ If you want to update the whole player yourself, sends raw update player info to
 
 #### Defined in
 
-[guild/Player.ts:457](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L457)
+[shoukaku/src/guild/Player.ts:452](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L452)

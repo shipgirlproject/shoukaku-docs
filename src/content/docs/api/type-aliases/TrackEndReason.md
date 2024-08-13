@@ -16,4 +16,4 @@ type TrackEndReason:
 
 ## Defined in
 
-[guild/Player.ts:7](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/guild/Player.ts#L7)
+[shoukaku/src/guild/Player.ts:7](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L7)

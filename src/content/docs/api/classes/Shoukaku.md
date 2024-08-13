@@ -9,7 +9,7 @@ Main Shoukaku class
 
 ## Extends
 
-- `EventEmitter`
+- [`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/)\<[`ShoukakuEvents`](/api/type-aliases/shoukakuevents/)\>
 
 ## Constructors
 
@@ -36,9 +36,13 @@ new Shoukaku(
 
 [`Shoukaku`](/api/classes/shoukaku/)
 
+#### Overrides
+
+`TypedEventEmitter<ShoukakuEvents>.constructor`
+
 #### Defined in
 
-[Shoukaku.ts:187](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L187)
+[shoukaku/src/Shoukaku.ts:182](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L182)
 
 ## Properties
 
@@ -54,7 +58,7 @@ Voice connections being handled
 
 #### Defined in
 
-[Shoukaku.ts:163](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L163)
+[shoukaku/src/Shoukaku.ts:158](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L158)
 
 ***
 
@@ -70,7 +74,7 @@ Discord library connector
 
 #### Defined in
 
-[Shoukaku.ts:151](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L151)
+[shoukaku/src/Shoukaku.ts:146](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L146)
 
 ***
 
@@ -86,7 +90,7 @@ Shoukaku instance identifier
 
 #### Defined in
 
-[Shoukaku.ts:171](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L171)
+[shoukaku/src/Shoukaku.ts:166](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L166)
 
 ***
 
@@ -102,7 +106,7 @@ Connected Lavalink nodes
 
 #### Defined in
 
-[Shoukaku.ts:159](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L159)
+[shoukaku/src/Shoukaku.ts:154](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L154)
 
 ***
 
@@ -118,7 +122,7 @@ Shoukaku options
 
 #### Defined in
 
-[Shoukaku.ts:155](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L155)
+[shoukaku/src/Shoukaku.ts:150](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L150)
 
 ***
 
@@ -134,7 +138,7 @@ Players being handled
 
 #### Defined in
 
-[Shoukaku.ts:167](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L167)
+[shoukaku/src/Shoukaku.ts:162](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L162)
 
 ## Methods
 
@@ -160,7 +164,7 @@ Add a Lavalink node to the pool of available nodes
 
 #### Defined in
 
-[Shoukaku.ts:215](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L215)
+[shoukaku/src/Shoukaku.ts:210](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L210)
 
 ***
 
@@ -169,23 +173,75 @@ Add a Lavalink node to the pool of available nodes
 ### emit()
 
 ```ts
-emit(event: string | symbol, ...args: any[]): boolean
+emit<K>(eventName: K, ...args: ShoukakuEvents[Extract<K, string>]): boolean
 ```
+
+Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
+to each.
+
+Returns `true` if the event had listeners, `false` otherwise.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEmitter = new EventEmitter();
+
+// First listener
+myEmitter.on('event', function firstListener() {
+  console.log('Helloooo! first listener');
+});
+// Second listener
+myEmitter.on('event', function secondListener(arg1, arg2) {
+  console.log(`event with parameters ${arg1}, ${arg2} in second listener`);
+});
+// Third listener
+myEmitter.on('event', function thirdListener(...args) {
+  const parameters = args.join(', ');
+  console.log(`event with parameters ${parameters} in third listener`);
+});
+
+console.log(myEmitter.listeners('event'));
+
+myEmitter.emit('event', 1, 2, 3, 4, 5);
+
+// Prints:
+// [
+//   [Function: firstListener],
+//   [Function: secondListener],
+//   [Function: thirdListener]
+// ]
+// Helloooo! first listener
+// event with parameters 1, 2 in second listener
+// event with parameters 1, 2, 3, 4, 5 in third listener
+```
+
+#### Type Parameters
+
+| Type Parameter |
+| ------ |
+| `K` *extends* `symbol` \| keyof ShoukakuEvents |
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | `string` \| `symbol` |
-| ...`args` | `any`[] |
+| `eventName` | `K` |
+| ...`args` | [`ShoukakuEvents`](/api/type-aliases/shoukakuevents/)\[`Extract`\<`K`, `string`\>\] |
 
 #### Returns
 
 `boolean`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`emit`](/api/namespaces/utils/classes/typedeventemitter/#emit)
+
+#### Since
+
+v0.1.26
+
 #### Defined in
 
-[Shoukaku.ts:141](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L141)
+[shoukaku/src/Utils.ts:21](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L21)
 
 ***
 
@@ -213,7 +269,7 @@ An ideal node for you to do things with
 
 #### Defined in
 
-[Shoukaku.ts:203](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L203)
+[shoukaku/src/Shoukaku.ts:198](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L198)
 
 ***
 
@@ -241,7 +297,7 @@ The created player
 
 #### Defined in
 
-[Shoukaku.ts:248](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L248)
+[shoukaku/src/Shoukaku.ts:243](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L243)
 
 ***
 
@@ -269,7 +325,7 @@ The destroyed / disconnected player or undefined if none
 
 #### Defined in
 
-[Shoukaku.ts:284](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L284)
+[shoukaku/src/Shoukaku.ts:279](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L279)
 
 ***
 
@@ -278,29 +334,39 @@ The destroyed / disconnected player or undefined if none
 ### off()
 
 ```ts
-off<K>(event: K, listener: (...args: ShoukakuEvents[K]) => void): this
+off<K>(eventName: K, listener: (...args: ShoukakuEvents[Extract<K, string>]) => void): this
 ```
+
+Alias for `emitter.removeListener()`.
 
 #### Type Parameters
 
 | Type Parameter |
 | ------ |
-| `K` *extends* keyof [`ShoukakuEvents`](/api/interfaces/shoukakuevents/) |
+| `K` *extends* `symbol` \| keyof ShoukakuEvents |
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | `K` |
-| `listener` | (...`args`: [`ShoukakuEvents`](/api/interfaces/shoukakuevents/)\[`K`\]) => `void` |
+| `eventName` | `K` |
+| `listener` | (...`args`: [`ShoukakuEvents`](/api/type-aliases/shoukakuevents/)\[`Extract`\<`K`, `string`\>\]) => `void` |
 
 #### Returns
 
 `this`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`off`](/api/namespaces/utils/classes/typedeventemitter/#off)
+
+#### Since
+
+v10.0.0
+
 #### Defined in
 
-[Shoukaku.ts:140](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L140)
+[shoukaku/src/Utils.ts:17](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L17)
 
 ***
 
@@ -309,29 +375,64 @@ off<K>(event: K, listener: (...args: ShoukakuEvents[K]) => void): this
 ### on()
 
 ```ts
-on<K>(event: K, listener: (...args: ShoukakuEvents[K]) => void): this
+on<K>(eventName: K, listener: (...args: ShoukakuEvents[Extract<K, string>]) => void): this
+```
+
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
 ```
 
 #### Type Parameters
 
 | Type Parameter |
 | ------ |
-| `K` *extends* keyof [`ShoukakuEvents`](/api/interfaces/shoukakuevents/) |
+| `K` *extends* `symbol` \| keyof ShoukakuEvents |
 
 #### Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `K` |
-| `listener` | (...`args`: [`ShoukakuEvents`](/api/interfaces/shoukakuevents/)\[`K`\]) => `void` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `eventName` | `K` | The name of the event. |
+| `listener` | (...`args`: [`ShoukakuEvents`](/api/type-aliases/shoukakuevents/)\[`Extract`\<`K`, `string`\>\]) => `void` | The callback function |
 
 #### Returns
 
 `this`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`on`](/api/namespaces/utils/classes/typedeventemitter/#on)
+
+#### Since
+
+v0.1.101
+
 #### Defined in
 
-[Shoukaku.ts:138](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L138)
+[shoukaku/src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L9)
 
 ***
 
@@ -340,29 +441,62 @@ on<K>(event: K, listener: (...args: ShoukakuEvents[K]) => void): this
 ### once()
 
 ```ts
-once<K>(event: K, listener: (...args: ShoukakuEvents[K]) => void): this
+once<K>(eventName: K, listener: (...args: ShoukakuEvents[Extract<K, string>]) => void): this
+```
+
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
 ```
 
 #### Type Parameters
 
 | Type Parameter |
 | ------ |
-| `K` *extends* keyof [`ShoukakuEvents`](/api/interfaces/shoukakuevents/) |
+| `K` *extends* `symbol` \| keyof ShoukakuEvents |
 
 #### Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `K` |
-| `listener` | (...`args`: [`ShoukakuEvents`](/api/interfaces/shoukakuevents/)\[`K`\]) => `void` |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `eventName` | `K` | The name of the event. |
+| `listener` | (...`args`: [`ShoukakuEvents`](/api/type-aliases/shoukakuevents/)\[`Extract`\<`K`, `string`\>\]) => `void` | The callback function |
 
 #### Returns
 
 `this`
 
+#### Inherited from
+
+[`TypedEventEmitter`](/api/namespaces/utils/classes/typedeventemitter/).[`once`](/api/namespaces/utils/classes/typedeventemitter/#once)
+
+#### Since
+
+v0.3.0
+
 #### Defined in
 
-[Shoukaku.ts:139](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L139)
+[shoukaku/src/Utils.ts:13](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Utils.ts#L13)
 
 ***
 
@@ -389,4 +523,4 @@ Remove a Lavalink node from the pool of available nodes
 
 #### Defined in
 
-[Shoukaku.ts:233](https://github.com/shipgirlproject/shoukaku/blob/428f92c432a1875d1770e54c312147a1f47a448d/src/Shoukaku.ts#L233)
+[shoukaku/src/Shoukaku.ts:228](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L228)
