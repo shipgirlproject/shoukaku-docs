@@ -17,7 +17,7 @@ optional endTime: number;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:127](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L127)
+[shoukaku/src/node/Rest.ts:127](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L127)
 
 ***
 
@@ -31,7 +31,7 @@ optional filters: FilterOptions;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:130](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L130)
+[shoukaku/src/node/Rest.ts:130](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L130)
 
 ***
 
@@ -45,7 +45,7 @@ optional paused: boolean;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:129](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L129)
+[shoukaku/src/node/Rest.ts:129](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L129)
 
 ***
 
@@ -59,7 +59,7 @@ optional position: number;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:126](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L126)
+[shoukaku/src/node/Rest.ts:126](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L126)
 
 ***
 
@@ -73,7 +73,7 @@ optional track: UpdatePlayerTrackOptions;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:125](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L125)
+[shoukaku/src/node/Rest.ts:125](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L125)
 
 ***
 
@@ -87,7 +87,7 @@ optional voice: LavalinkPlayerVoiceOptions;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:131](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L131)
+[shoukaku/src/node/Rest.ts:131](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L131)
 
 ***
 
@@ -101,4 +101,4 @@ optional volume: number;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:128](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L128)
+[shoukaku/src/node/Rest.ts:128](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L128)

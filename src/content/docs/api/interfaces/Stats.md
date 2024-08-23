@@ -45,16 +45,16 @@ systemLoad: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:30](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L30)
+[shoukaku/src/node/Node.ts:30](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L30)
 
 ***
 
 <a id="framestats" name="framestats"></a>
 
-### frameStats
+### frameStats?
 
 ```ts
-frameStats: {
+optional frameStats: {
   deficit: number;
   nulled: number;
   sent: number;
@@ -87,7 +87,7 @@ sent: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:25](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L25)
+[shoukaku/src/node/Node.ts:25](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L25)
 
 ***
 
@@ -138,7 +138,7 @@ used: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:19](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L19)
+[shoukaku/src/node/Node.ts:19](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L19)
 
 ***
 
@@ -152,7 +152,7 @@ op: STATS;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:16](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L16)
+[shoukaku/src/node/Node.ts:16](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L16)
 
 ***
 
@@ -166,7 +166,7 @@ players: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:17](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L17)
+[shoukaku/src/node/Node.ts:17](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L17)
 
 ***
 
@@ -180,7 +180,7 @@ playingPlayers: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:18](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L18)
+[shoukaku/src/node/Node.ts:18](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L18)
 
 ***
 
@@ -194,4 +194,4 @@ uptime: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:35](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L35)
+[shoukaku/src/node/Node.ts:35](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L35)

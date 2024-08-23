@@ -17,7 +17,7 @@ filters: FilterOptions;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:115](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L115)
+[shoukaku/src/node/Rest.ts:115](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L115)
 
 ***
 
@@ -31,7 +31,7 @@ guildId: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:110](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L110)
+[shoukaku/src/node/Rest.ts:110](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L110)
 
 ***
 
@@ -45,7 +45,7 @@ paused: boolean;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:113](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L113)
+[shoukaku/src/node/Rest.ts:113](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L113)
 
 ***
 
@@ -59,7 +59,7 @@ optional track: Track;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:111](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L111)
+[shoukaku/src/node/Rest.ts:111](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L111)
 
 ***
 
@@ -73,7 +73,7 @@ voice: LavalinkPlayerVoice;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:114](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L114)
+[shoukaku/src/node/Rest.ts:114](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L114)
 
 ***
 
@@ -87,4 +87,4 @@ volume: number;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:112](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L112)
+[shoukaku/src/node/Rest.ts:112](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L112)

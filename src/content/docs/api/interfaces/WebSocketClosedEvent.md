@@ -21,7 +21,7 @@ byRemote: boolean;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:98](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L98)
+[shoukaku/src/guild/Player.ts:98](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L98)
 
 ***
 
@@ -35,7 +35,7 @@ code: number;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:97](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L97)
+[shoukaku/src/guild/Player.ts:97](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L97)
 
 ***
 
@@ -53,7 +53,7 @@ guildId: string;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:70](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L70)
+[shoukaku/src/guild/Player.ts:70](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L70)
 
 ***
 
@@ -71,7 +71,7 @@ op: EVENT;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:69](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L69)
+[shoukaku/src/guild/Player.ts:69](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L69)
 
 ***
 
@@ -85,7 +85,7 @@ reason: string;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:99](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L99)
+[shoukaku/src/guild/Player.ts:99](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L99)
 
 ***
 
@@ -99,4 +99,4 @@ type: WEBSOCKET_CLOSED_EVENT;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:96](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L96)
+[shoukaku/src/guild/Player.ts:96](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L96)

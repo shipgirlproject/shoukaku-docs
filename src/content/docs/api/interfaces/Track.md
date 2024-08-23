@@ -17,7 +17,7 @@ encoded: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:17](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L17)
+[shoukaku/src/node/Rest.ts:17](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L17)
 
 ***
 
@@ -131,7 +131,7 @@ optional uri: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:18](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L18)
+[shoukaku/src/node/Rest.ts:18](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L18)
 
 ***
 
@@ -145,4 +145,4 @@ pluginInfo: unknown;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:31](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L31)
+[shoukaku/src/node/Rest.ts:31](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L31)

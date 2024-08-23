@@ -19,7 +19,7 @@ Credentials to access Lavalink
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:32](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L32)
+[shoukaku/src/Shoukaku.ts:32](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L32)
 
 ***
 
@@ -35,7 +35,7 @@ Name of the Lavalink node group
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:40](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L40)
+[shoukaku/src/Shoukaku.ts:40](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L40)
 
 ***
 
@@ -51,7 +51,7 @@ Name of the Lavalink node
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:24](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L24)
+[shoukaku/src/Shoukaku.ts:24](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L24)
 
 ***
 
@@ -67,7 +67,7 @@ Whether to use secure protocols or not
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:36](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L36)
+[shoukaku/src/Shoukaku.ts:36](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L36)
 
 ***
 
@@ -83,4 +83,4 @@ Lavalink node host and port without any prefix
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:28](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L28)
+[shoukaku/src/Shoukaku.ts:28](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L28)

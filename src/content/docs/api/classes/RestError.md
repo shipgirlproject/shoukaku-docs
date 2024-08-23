@@ -35,7 +35,7 @@ new RestError(__namedParameters: LavalinkRestError): RestError
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:427](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L427)
+[shoukaku/src/node/Rest.ts:422](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L422)
 
 ## Properties
 
@@ -49,7 +49,7 @@ error: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:423](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L423)
+[shoukaku/src/node/Rest.ts:418](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L418)
 
 ***
 
@@ -99,7 +99,7 @@ path: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:425](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L425)
+[shoukaku/src/node/Rest.ts:420](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L420)
 
 ***
 
@@ -131,7 +131,7 @@ status: number;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:422](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L422)
+[shoukaku/src/node/Rest.ts:417](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L417)
 
 ***
 
@@ -145,7 +145,7 @@ timestamp: number;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:421](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L421)
+[shoukaku/src/node/Rest.ts:416](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L416)
 
 ***
 
@@ -159,4 +159,4 @@ optional trace: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:424](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L424)
+[shoukaku/src/node/Rest.ts:419](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L419)

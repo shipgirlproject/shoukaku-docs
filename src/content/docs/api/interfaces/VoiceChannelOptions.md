@@ -17,7 +17,7 @@ channelId: string;
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:93](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L93)
+[shoukaku/src/Shoukaku.ts:93](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L93)
 
 ***
 
@@ -31,7 +31,7 @@ optional deaf: boolean;
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:94](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L94)
+[shoukaku/src/Shoukaku.ts:94](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L94)
 
 ***
 
@@ -45,7 +45,7 @@ guildId: string;
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:91](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L91)
+[shoukaku/src/Shoukaku.ts:91](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L91)
 
 ***
 
@@ -59,7 +59,7 @@ optional mute: boolean;
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:95](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L95)
+[shoukaku/src/Shoukaku.ts:95](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L95)
 
 ***
 
@@ -73,4 +73,4 @@ shardId: number;
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:92](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/Shoukaku.ts#L92)
+[shoukaku/src/Shoukaku.ts:92](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L92)

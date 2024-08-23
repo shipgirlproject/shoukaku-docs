@@ -35,6 +35,7 @@ export default defineConfig({
 				}),
 				starlightVersions({
 					versions: [
+						{ slug: '4.1.0' },
 						{ slug: '4.0.1' },
 						{ slug: '3.4.2' },
 					],

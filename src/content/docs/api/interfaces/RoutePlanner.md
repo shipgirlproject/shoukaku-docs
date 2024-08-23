@@ -22,7 +22,7 @@ class:
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:84](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L84)
+[shoukaku/src/node/Rest.ts:84](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L84)
 
 ***
 
@@ -47,4 +47,4 @@ details: null | {
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:85](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Rest.ts#L85)
+[shoukaku/src/node/Rest.ts:85](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L85)

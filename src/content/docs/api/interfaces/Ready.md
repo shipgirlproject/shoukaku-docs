@@ -17,7 +17,7 @@ op: READY;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:10](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L10)
+[shoukaku/src/node/Node.ts:10](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L10)
 
 ***
 
@@ -31,7 +31,7 @@ resumed: boolean;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:11](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L11)
+[shoukaku/src/node/Node.ts:11](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L11)
 
 ***
 
@@ -45,4 +45,4 @@ sessionId: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:12](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/node/Node.ts#L12)
+[shoukaku/src/node/Node.ts:12](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L12)

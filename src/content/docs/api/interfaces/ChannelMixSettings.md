@@ -17,7 +17,7 @@ optional leftToLeft: number;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:58](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L58)
+[shoukaku/src/guild/Player.ts:58](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L58)
 
 ***
 
@@ -31,7 +31,7 @@ optional leftToRight: number;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:59](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L59)
+[shoukaku/src/guild/Player.ts:59](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L59)
 
 ***
 
@@ -45,7 +45,7 @@ optional rightToLeft: number;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:60](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L60)
+[shoukaku/src/guild/Player.ts:60](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L60)
 
 ***
 
@@ -59,4 +59,4 @@ optional rightToRight: number;
 
 #### Defined in
 
-[shoukaku/src/guild/Player.ts:61](https://github.com/shipgirlproject/shoukaku/blob/049b5dc536f3b28e41c5423a707d8a02ac9377a7/src/guild/Player.ts#L61)
+[shoukaku/src/guild/Player.ts:61](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Player.ts#L61)

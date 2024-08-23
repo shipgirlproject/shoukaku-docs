@@ -1,0 +1,125 @@
+---
+title: Getting Started
+description: Get started with Shoukaku.
+slug: 4.1.0/guides/1-getting-started
+---
+
+import { PackageManagers } from "starlight-package-managers";
+import { Tabs, TabItem, Steps, Aside } from '@astrojs/starlight/components';
+
+<Aside type="tip">
+  Shoukaku runs on Node versions above `18.0.0` and NPM versions above `7.0.0`.
+  Currently, Shoukaku is not tested or verified to run on the Deno runtime or the Bun runtime.
+</Aside>
+
+Shoukaku is a stable, powerful and updated wrapper around [Lavalink](https://lavalink.dev/). It is Discord library agnostic, and can add support for new Discord libraries using connectors.
+
+## Set up Shoukaku
+
+<Steps>
+  1. Install Shoukaku using your favorite package manager.
+
+     <PackageManagers type="add" pkg="shipgirlproject/Shoukaku#master" pkgManagers={["npm", "yarn", "pnpm", "bun"]} />
+
+  2. Import the library
+
+     <Tabs>
+       <TabItem label="ESM">
+         ```js
+         import { Client } from "discord.js";
+         import { Shoukaku, Connectors } from "shoukaku";
+         ```
+       </TabItem>
+
+       <TabItem label="CJS">
+         ```js
+         const { Client } = require("discord.js");
+         const { Shoukaku, Connectors } = require("shoukaku");
+         ```
+       </TabItem>
+     </Tabs>
+
+  3. Configure nodes
+
+     ```js
+     const Nodes = [
+         {
+             name: "Localhost",
+             url: "localhost:6969",
+             auth: "re_aoharu", // password
+         },
+     ];
+     ```
+
+  4. Initialize the library using one of the connectors.
+
+     <Tabs>
+       <TabItem label="Discord.JS">
+         ```js
+         const client = new Client();
+         const shoukaku = new Shoukaku(new Connectors.DiscordJS(client), Nodes);
+         ```
+       </TabItem>
+
+       <TabItem label="Eris">
+         ```js
+         const client = new Client();
+         const shoukaku = new Shoukaku(new Connectors.Eris(client), Nodes);
+         ```
+       </TabItem>
+
+       <TabItem label="Oceanic.JS">
+         ```js
+         const client = new Client();
+         const shoukaku = new Shoukaku(new Connectors.OceanicJS(client), Nodes);
+         ```
+       </TabItem>
+
+       <TabItem label="Seyfert">
+         ```js
+         const client = new Client();
+         const shoukaku = new Shoukaku(new Connectors.Seyfert(client), Nodes);
+         ```
+       </TabItem>
+     </Tabs>
+
+     <Aside type="danger" title="Do not ever do this!">
+       Shoukaku will never initialized if you don't start her before you call `client.login()`
+
+       ```js
+       client.on('ready', () => {
+           client.shoukaku = new Shoukaku(new Connectors.DiscordJS(client), Nodes);
+       });
+       ```
+     </Aside>
+
+  5. Handle error events
+
+     Always handle "error" events or your program may crash due to uncaught error
+
+     ```js
+     shoukaku.on("error", (_, error) => console.error(error));
+     ```
+
+  6. Login to Discord
+
+     ```js
+     client.login("token");
+     ```
+
+     <Aside type="tip">
+       If you want shoukaku to be available on client, then bind it to it
+
+       ```js
+       client.shoukaku = shoukaku;
+       ```
+     </Aside>
+</Steps>
+
+## Other Resources
+
+* [Lavalink Docs](https://lavalink.dev)
+* Example implementation using Discord.JS: [Kongou](https://github.com/Deivu/Kongou)
+* Get support on the [Discord server](https://discord.gg/FVqbtGu)
+* [API Reference (TypeDoc)](https://shoukaku.shipgirl.moe)
+* [API Reference (Starlight)](/4.1.0/api/classes/shoukaku)
