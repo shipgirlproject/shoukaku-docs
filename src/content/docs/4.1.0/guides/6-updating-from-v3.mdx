@@ -45,7 +45,7 @@ Play the track using the encoded metadata.
 
 ```diff
 -player.playTrack({ track: metadata.track })
-+await player.playTrack({ track: metadata.encoded });
++await player.playTrack({ track: { encoded: metadata.encoded } });
 ```
 
 ### Leaving voice channels

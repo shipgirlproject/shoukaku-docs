@@ -28,7 +28,7 @@ import { Steps } from '@astrojs/starlight/components';
     ```
 4. Tell Lavalink to play the searched track.
     ```js
-    await player.playTrack({ track: metadata.encoded });
+    await player.playTrack({ track: { encoded: metadata.encoded } });
     ```
 5. After 30 seconds, tell Lavalink to leave the voice channel.
     ```js
@@ -39,7 +39,7 @@ import { Steps } from '@astrojs/starlight/components';
 ## Playing a track and changing a playback option
 Here we are changing the volume, you can do [other stuff](/api/classes/player#methods) as well.
 ```js
-await player.playTrack({ track: metadata.encoded });
+await player.playTrack({ track: { encoded: metadata.encoded } });
 await player.setGlobalVolume(50);
 ```
 
