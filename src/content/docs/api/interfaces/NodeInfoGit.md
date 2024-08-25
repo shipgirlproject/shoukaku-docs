@@ -17,7 +17,7 @@ branch: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:48](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L48)
+[shoukaku/src/node/Node.ts:54](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L54)
 
 ***
 
@@ -31,7 +31,7 @@ commit: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:49](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L49)
+[shoukaku/src/node/Node.ts:55](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L55)
 
 ***
 
@@ -45,4 +45,4 @@ commitTime: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:50](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L50)
+[shoukaku/src/node/Node.ts:56](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L56)

@@ -17,7 +17,7 @@ cause: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:47](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L47)
+[shoukaku/src/node/Rest.ts:47](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Rest.ts#L47)
 
 ***
 
@@ -31,7 +31,7 @@ message: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:45](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L45)
+[shoukaku/src/node/Rest.ts:45](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Rest.ts#L45)
 
 ***
 
@@ -45,4 +45,4 @@ severity: Severity;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:46](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L46)
+[shoukaku/src/node/Rest.ts:46](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Rest.ts#L46)

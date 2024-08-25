@@ -17,7 +17,7 @@ guildId: string;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:135](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L135)
+[shoukaku/src/node/Rest.ts:135](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Rest.ts#L135)
 
 ***
 
@@ -31,7 +31,7 @@ optional noReplace: boolean;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:137](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L137)
+[shoukaku/src/node/Rest.ts:137](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Rest.ts#L137)
 
 ***
 
@@ -45,4 +45,4 @@ playerOptions: UpdatePlayerOptions;
 
 #### Defined in
 
-[shoukaku/src/node/Rest.ts:136](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Rest.ts#L136)
+[shoukaku/src/node/Rest.ts:136](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Rest.ts#L136)

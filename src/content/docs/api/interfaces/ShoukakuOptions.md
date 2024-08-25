@@ -19,7 +19,7 @@ Whether to move players to a different Lavalink node when a node disconnects
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:71](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L71)
+[shoukaku/src/Shoukaku.ts:71](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L71)
 
 ***
 
@@ -46,7 +46,7 @@ Node Resolver to use if you want to customize it
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:87](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L87)
+[shoukaku/src/Shoukaku.ts:87](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L87)
 
 ***
 
@@ -62,7 +62,7 @@ Timeout before trying to reconnect
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:63](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L63)
+[shoukaku/src/Shoukaku.ts:63](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L63)
 
 ***
 
@@ -78,7 +78,7 @@ Number of times to try and reconnect to Lavalink before giving up
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:59](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L59)
+[shoukaku/src/Shoukaku.ts:59](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L59)
 
 ***
 
@@ -94,7 +94,7 @@ Time to wait for a response from the Lavalink REST API before giving up
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:67](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L67)
+[shoukaku/src/Shoukaku.ts:67](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L67)
 
 ***
 
@@ -110,7 +110,7 @@ Whether to resume a connection on disconnect to Lavalink (Server Side) (Note: DO
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:47](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L47)
+[shoukaku/src/Shoukaku.ts:47](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L47)
 
 ***
 
@@ -126,7 +126,7 @@ Whether to resume the players by doing it in the library side (Client Side) (Not
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:55](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L55)
+[shoukaku/src/Shoukaku.ts:55](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L55)
 
 ***
 
@@ -142,7 +142,7 @@ Time to wait before lavalink starts to destroy the players of the disconnected c
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:51](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L51)
+[shoukaku/src/Shoukaku.ts:51](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L51)
 
 ***
 
@@ -158,7 +158,7 @@ Custom structures for shoukaku to use
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:79](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L79)
+[shoukaku/src/Shoukaku.ts:79](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L79)
 
 ***
 
@@ -174,7 +174,7 @@ User Agent to use when making requests to Lavalink
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:75](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L75)
+[shoukaku/src/Shoukaku.ts:75](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L75)
 
 ***
 
@@ -190,4 +190,4 @@ Timeout before abort connection
 
 #### Defined in
 
-[shoukaku/src/Shoukaku.ts:83](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Shoukaku.ts#L83)
+[shoukaku/src/Shoukaku.ts:83](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Shoukaku.ts#L83)

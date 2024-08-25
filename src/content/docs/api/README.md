@@ -50,10 +50,13 @@ title: "shoukaku"
 | [LavalinkPlayer](/api/interfaces/lavalinkplayer/) | - |
 | [LavalinkPlayerVoice](/api/interfaces/lavalinkplayervoice/) | - |
 | [LowPassSettings](/api/interfaces/lowpasssettings/) | - |
+| [NodeCpu](/api/interfaces/nodecpu/) | - |
+| [NodeFrameStats](/api/interfaces/nodeframestats/) | - |
 | [NodeInfo](/api/interfaces/nodeinfo/) | - |
 | [NodeInfoGit](/api/interfaces/nodeinfogit/) | - |
 | [NodeInfoPlugin](/api/interfaces/nodeinfoplugin/) | - |
 | [NodeInfoVersion](/api/interfaces/nodeinfoversion/) | - |
+| [NodeMemory](/api/interfaces/nodememory/) | - |
 | [NodeOption](/api/interfaces/nodeoption/) | - |
 | [PlayerEvent](/api/interfaces/playerevent/) | - |
 | [PlayerUpdate](/api/interfaces/playerupdate/) | - |

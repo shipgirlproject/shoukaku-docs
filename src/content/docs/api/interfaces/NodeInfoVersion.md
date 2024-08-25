@@ -17,7 +17,7 @@ optional build: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:44](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L44)
+[shoukaku/src/node/Node.ts:50](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L50)
 
 ***
 
@@ -31,7 +31,7 @@ major: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:40](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L40)
+[shoukaku/src/node/Node.ts:46](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L46)
 
 ***
 
@@ -45,7 +45,7 @@ minor: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:41](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L41)
+[shoukaku/src/node/Node.ts:47](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L47)
 
 ***
 
@@ -59,7 +59,7 @@ patch: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:42](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L42)
+[shoukaku/src/node/Node.ts:48](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L48)
 
 ***
 
@@ -73,7 +73,7 @@ optional preRelease: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:43](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L43)
+[shoukaku/src/node/Node.ts:49](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L49)
 
 ***
 
@@ -87,4 +87,4 @@ semver: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:39](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L39)
+[shoukaku/src/node/Node.ts:45](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L45)

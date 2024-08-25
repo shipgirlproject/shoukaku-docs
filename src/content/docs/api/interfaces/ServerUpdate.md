@@ -19,7 +19,7 @@ endpoint: string;
 
 #### Defined in
 
-[shoukaku/src/guild/Connection.ts:21](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Connection.ts#L21)
+[shoukaku/src/guild/Connection.ts:21](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/guild/Connection.ts#L21)
 
 ***
 
@@ -33,7 +33,7 @@ guild_id: string;
 
 #### Defined in
 
-[shoukaku/src/guild/Connection.ts:20](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Connection.ts#L20)
+[shoukaku/src/guild/Connection.ts:20](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/guild/Connection.ts#L20)
 
 ***
 
@@ -47,4 +47,4 @@ token: string;
 
 #### Defined in
 
-[shoukaku/src/guild/Connection.ts:19](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/guild/Connection.ts#L19)
+[shoukaku/src/guild/Connection.ts:19](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/guild/Connection.ts#L19)

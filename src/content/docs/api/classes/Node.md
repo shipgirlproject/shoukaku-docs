@@ -38,7 +38,7 @@ new Node(manager: Shoukaku, options: NodeOption): Node
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:153](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L153)
+[shoukaku/src/node/Node.ts:159](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L159)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Group in which this node is contained
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:103](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L103)
+[shoukaku/src/node/Node.ts:109](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L109)
 
 ***
 
@@ -70,7 +70,7 @@ Information about lavalink node
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:127](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L127)
+[shoukaku/src/node/Node.ts:133](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L133)
 
 ***
 
@@ -86,7 +86,7 @@ Shoukaku class
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:91](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L91)
+[shoukaku/src/node/Node.ts:97](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L97)
 
 ***
 
@@ -102,7 +102,7 @@ Name of this node
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:99](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L99)
+[shoukaku/src/node/Node.ts:105](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L105)
 
 ***
 
@@ -118,7 +118,7 @@ The number of reconnects to Lavalink
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:115](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L115)
+[shoukaku/src/node/Node.ts:121](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L121)
 
 ***
 
@@ -134,7 +134,7 @@ Lavalink rest API
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:95](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L95)
+[shoukaku/src/node/Node.ts:101](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L101)
 
 ***
 
@@ -150,7 +150,7 @@ SessionId of this Lavalink connection (not to be confused with Discord SessionId
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:135](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L135)
+[shoukaku/src/node/Node.ts:141](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L141)
 
 ***
 
@@ -166,7 +166,7 @@ The state of this connection
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:119](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L119)
+[shoukaku/src/node/Node.ts:125](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L125)
 
 ***
 
@@ -182,7 +182,7 @@ Statistics from Lavalink
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:123](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L123)
+[shoukaku/src/node/Node.ts:129](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L129)
 
 ***
 
@@ -198,7 +198,7 @@ Websocket instance
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:131](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L131)
+[shoukaku/src/node/Node.ts:137](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L137)
 
 ## Methods
 
@@ -218,7 +218,7 @@ Connect to Lavalink
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:202](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L202)
+[shoukaku/src/node/Node.ts:208](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L208)
 
 ***
 
@@ -245,7 +245,7 @@ Disconnect from Lavalink
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:236](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L236)
+[shoukaku/src/node/Node.ts:242](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L242)
 
 ***
 
@@ -322,7 +322,7 @@ v0.1.26
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:21](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L21)
+[shoukaku/src/Utils.ts:21](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L21)
 
 ***
 
@@ -348,7 +348,7 @@ To emit error events easily
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:333](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L333)
+[shoukaku/src/node/Node.ts:339](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L339)
 
 ***
 
@@ -389,7 +389,7 @@ v10.0.0
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:17](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L17)
+[shoukaku/src/Utils.ts:17](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L17)
 
 ***
 
@@ -455,7 +455,7 @@ v0.1.101
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L9)
+[shoukaku/src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L9)
 
 ***
 
@@ -519,4 +519,4 @@ v0.3.0
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:13](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L13)
+[shoukaku/src/Utils.ts:13](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L13)

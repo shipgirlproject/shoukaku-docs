@@ -35,7 +35,7 @@ new Seyfert(client: any): Seyfert
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:17](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L17)
+[shoukaku/src/connectors/Connector.ts:17](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L17)
 
 ## Methods
 
@@ -57,7 +57,7 @@ getId(): string
 
 #### Defined in
 
-[shoukaku/src/connectors/libs/Seyfert.ts:11](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/libs/Seyfert.ts#L11)
+[shoukaku/src/connectors/libs/Seyfert.ts:11](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/libs/Seyfert.ts#L11)
 
 ***
 
@@ -85,7 +85,7 @@ listen(nodes: NodeOption[]): void
 
 #### Defined in
 
-[shoukaku/src/connectors/libs/Seyfert.ts:15](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/libs/Seyfert.ts#L15)
+[shoukaku/src/connectors/libs/Seyfert.ts:15](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/libs/Seyfert.ts#L15)
 
 ***
 
@@ -118,7 +118,7 @@ sendPacket(
 
 #### Defined in
 
-[shoukaku/src/connectors/libs/Seyfert.ts:7](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/libs/Seyfert.ts#L7)
+[shoukaku/src/connectors/libs/Seyfert.ts:7](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/libs/Seyfert.ts#L7)
 
 ***
 
@@ -146,4 +146,4 @@ set(manager: Shoukaku): Connector
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:23](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L23)
+[shoukaku/src/connectors/Connector.ts:23](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L23)

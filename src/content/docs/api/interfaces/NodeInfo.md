@@ -17,7 +17,7 @@ buildTime: number;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:60](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L60)
+[shoukaku/src/node/Node.ts:66](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L66)
 
 ***
 
@@ -31,7 +31,7 @@ filters: string[];
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:65](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L65)
+[shoukaku/src/node/Node.ts:71](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L71)
 
 ***
 
@@ -45,7 +45,7 @@ git: NodeInfoGit;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:61](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L61)
+[shoukaku/src/node/Node.ts:67](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L67)
 
 ***
 
@@ -59,7 +59,7 @@ jvm: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:62](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L62)
+[shoukaku/src/node/Node.ts:68](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L68)
 
 ***
 
@@ -73,7 +73,7 @@ lavaplayer: string;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:63](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L63)
+[shoukaku/src/node/Node.ts:69](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L69)
 
 ***
 
@@ -87,7 +87,7 @@ plugins: NodeInfoPlugin[];
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:66](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L66)
+[shoukaku/src/node/Node.ts:72](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L72)
 
 ***
 
@@ -101,7 +101,7 @@ sourceManagers: string[];
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:64](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L64)
+[shoukaku/src/node/Node.ts:70](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L70)
 
 ***
 
@@ -115,4 +115,4 @@ version: NodeInfoVersion;
 
 #### Defined in
 
-[shoukaku/src/node/Node.ts:59](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/node/Node.ts#L59)
+[shoukaku/src/node/Node.ts:65](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/node/Node.ts#L65)

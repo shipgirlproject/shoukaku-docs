@@ -34,7 +34,7 @@ new Connector(client: any): Connector
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:17](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L17)
+[shoukaku/src/connectors/Connector.ts:17](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L17)
 
 ## Methods
 
@@ -52,7 +52,7 @@ abstract getId(): string
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:44](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L44)
+[shoukaku/src/connectors/Connector.ts:44](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L44)
 
 ***
 
@@ -76,7 +76,7 @@ abstract listen(nodes: NodeOption[]): void
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:48](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L48)
+[shoukaku/src/connectors/Connector.ts:48](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L48)
 
 ***
 
@@ -105,7 +105,7 @@ abstract sendPacket(
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:46](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L46)
+[shoukaku/src/connectors/Connector.ts:46](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L46)
 
 ***
 
@@ -129,4 +129,4 @@ set(manager: Shoukaku): Connector
 
 #### Defined in
 
-[shoukaku/src/connectors/Connector.ts:23](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/connectors/Connector.ts#L23)
+[shoukaku/src/connectors/Connector.ts:23](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/connectors/Connector.ts#L23)

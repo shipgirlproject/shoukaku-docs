@@ -96,7 +96,7 @@ v0.1.26
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:21](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L21)
+[shoukaku/src/Utils.ts:21](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L21)
 
 ***
 
@@ -137,7 +137,7 @@ v10.0.0
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:17](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L17)
+[shoukaku/src/Utils.ts:17](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L17)
 
 ***
 
@@ -203,7 +203,7 @@ v0.1.101
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L9)
+[shoukaku/src/Utils.ts:9](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L9)
 
 ***
 
@@ -267,4 +267,4 @@ v0.3.0
 
 #### Defined in
 
-[shoukaku/src/Utils.ts:13](https://github.com/shipgirlproject/shoukaku/blob/30762f5af6c7b4176e69ee96fa39bc204a7cff21/src/Utils.ts#L13)
+[shoukaku/src/Utils.ts:13](https://github.com/shipgirlproject/shoukaku/blob/9d5588e950f8b8cbe3cdd5386a275943ff6fdba1/src/Utils.ts#L13)
